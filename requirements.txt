@@ -1,0 +1,12 @@
+# Data preparation, dataset building and tests (CPU)
+pandas>=2.0
+matplotlib>=3.7
+pytest>=7.0
+# Fine-tuning, evaluation and demo (installed inside the Colab notebooks)
+torch
+transformers>=4.50
+peft>=0.13
+accelerate
+datasets
+google-genai   # optional Gemini baseline
+gradio         # demo

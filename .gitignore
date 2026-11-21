@@ -1,0 +1,10 @@
+# Raw survey export contains phone numbers and emails - never commit it
+data/raw/
+*.raw.csv
+survey_raw.csv
+# Model outputs and caches
+checkpoints/
+fairrent-gemma3-1b-lora/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
