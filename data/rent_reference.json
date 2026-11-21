@@ -1,0 +1,30 @@
+{
+  "Self-contain across Akure": {
+    "group": "Self-contain across Akure",
+    "n": 33,
+    "p25": 180000.0,
+    "median": 200000.0,
+    "p75": 250000.0
+  },
+  "Self-contain in FUTA North Gate": {
+    "group": "Self-contain in FUTA North Gate",
+    "n": 9,
+    "p25": 180000.0,
+    "median": 200000.0,
+    "p75": 240000.0
+  },
+  "Self-contain in FUTA South Gate": {
+    "group": "Self-contain in FUTA South Gate",
+    "n": 16,
+    "p25": 172500.0,
+    "median": 195000.0,
+    "p75": 250000.0
+  },
+  "Single room across Akure": {
+    "group": "Single room across Akure",
+    "n": 8,
+    "p25": 58750.0,
+    "median": 60000.0,
+    "p75": 102500.0
+  }
+}

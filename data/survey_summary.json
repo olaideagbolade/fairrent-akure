@@ -1,0 +1,10 @@
+{
+  "tenants": 46,
+  "found_rent_inflated_yes": 0.522,
+  "bait_inspection_yes": 0.37,
+  "no_receipt": 0.522,
+  "would_use_yes_or_maybe": 0.978,
+  "mean_fairness_rating": 3.43,
+  "landlords": 4,
+  "rows_with_quality_flags": 9
+}
