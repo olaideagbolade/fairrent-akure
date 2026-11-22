@@ -57,19 +57,26 @@ Based on 124 training conversations (248 examples) built from 46 anonymised tena
 | Fee coverage | Every fee is mentioned with its amount |
 | Language match | Pidgin users get Pidgin; others get English |
 
-### Evaluation results
+> ### Evaluation results
 
-> Run `notebooks/03_evaluate_models.ipynb`, then paste the table from `results/eval_table.md` here.
+Results on the 48 held-out test conversations (unseen respondents and unseen message templates). All values are percentages. The Gemini baseline was not run.
 
 | Model | JSON valid | Intent acc. | Field acc. | Fees exact | Exact match | Verdict acc. | Grounded replies | Fee coverage | Language match |
-|---|---|---|---|---|---|---|---|---|---|
-| Gemma 3 1B (base) | | | | | | | | | |
-| Gemma 3 1B + LoRA (ours) | | | | | | | | | |
-| Gemini Flash (baseline) | | | | | | | | | |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| Gemma 3 1B (base) | 27.1 | 25.0 | 20.6 | 10.4 | 2.1 | 19.9 | 20.8 | 85.2 | 60.4 |
+| **Gemma 3 1B + LoRA (ours)** | **100** | **91.7** | **94.5** | **91.7** | **56.2** | **89.6** | **83.3** | **100** | **95.8** |
 
-*All values are percentages on the 48 test conversations.* The training loss curve is in `results/training_loss.png`.
+The training loss curve is in `results/training_loss.png`. Per-example outputs are in `results/test_predictions.csv`.
 
-**Success targets set in the project plan:** fee extraction at least 90%, verdict accuracy at least 85%, and grounded replies 100% after the safeguard.
+**What the results show**
+
+- **Fine-tuning made the model usable.** Without fine-tuning, Gemma 3 1B returned valid JSON only 27% of the time and got almost no extraction fully right (2.1%). After LoRA fine-tuning on 124 conversations, every output was valid JSON. Field accuracy rose from 20.6% to 94.5%.
+- **Targets met for fees and verdicts.** Fee amounts were exactly right in 91.7% of conversations (target: 90%). After the fee engine ran on the model's own extraction, 89.6% of fees got the correct amount and verdict (target: 85%).
+- **Exact match is lower (56.2%)** because it requires every field to be right at once: intent, area, house type, language and all fees. Most misses are small, such as the area or the language label, and they don't change the fee verdicts. That is why verdict accuracy stays at 89.6%.
+- **Grounded replies: 83.3% before the safeguard.** In 8 of 48 replies, the model wrote at least one number that is not in the engine result. The groundedness safeguard catches these and replaces them with the template reply, so **no tenant sees an invented number**. Fee coverage is 100%: every fee was mentioned with its amount.
+- **Language match rose from 60.4% to 95.8%.** Pidgin users get Pidgin replies and others get English.
+
+**Against the project's success targets:** fee extraction 91.7% (target ≥ 90%) ✅ · verdict accuracy 89.6% (target ≥ 85%) ✅ · grounded answers shown to users 100% with the safeguard (target 100%) ✅. Model replies before the safeguard (83.3%) are the main area to improve, with more reply training examples.
 
 ## Limitations
 
