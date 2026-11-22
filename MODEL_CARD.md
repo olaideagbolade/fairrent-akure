@@ -86,6 +86,8 @@ The training loss curve is in `results/training_loss.png`. Per-example outputs a
 - **Thresholds are guidance, not law.** The 10% and 20% rules come from what tenants reported. They are not legal limits.
 - **Thin evidence for "red flag" fees.** Unusual fees, such as development or caretaker fees, are flagged because few tenants report them, not because they are always illegitimate.
 - **A 1B model can still make mistakes** in reading amounts, for example confusing 25k with 250k. The tenant should check the amounts FairRent repeats back.
+- **Missed fees.** In live testing, the model sometimes drops a fee from a message. For example, it missed a "development fee 20k" in a Pidgin message, so the total was understated. The safeguard catches invented numbers but not missing ones. A planned fix is to repeat the extracted fees back to the user to confirm before checking.
+- **Reply language.** Some Pidgin messages get English replies (95.8% language match on the test set).
 
 ## Risks and mitigations
 
