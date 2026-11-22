@@ -1,0 +1,26 @@
+[
+  {
+    "Model": "Gemma 3 1B (base)",
+    "json_valid": 0.271,
+    "intent_acc": 0.25,
+    "field_acc": 0.206,
+    "fees_exact": 0.104,
+    "exact_match": 0.021,
+    "verdict_acc": 0.199,
+    "grounded": 0.208,
+    "coverage": 0.852,
+    "language_ok": 0.604
+  },
+  {
+    "Model": "Gemma 3 1B + LoRA (ours)",
+    "json_valid": 1.0,
+    "intent_acc": 0.917,
+    "field_acc": 0.945,
+    "fees_exact": 0.917,
+    "exact_match": 0.562,
+    "verdict_acc": 0.896,
+    "grounded": 0.833,
+    "coverage": 1.0,
+    "language_ok": 0.958
+  }
+]

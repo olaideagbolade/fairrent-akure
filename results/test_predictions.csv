@@ -1,0 +1,1453 @@
+model,id,source,language,message,extraction_output,reply_output,ungrounded_numbers,json_valid,intent_acc,field_acc,fees_exact,exact_match,verdict_acc,grounded,coverage,language_ok
+Gemma 3 1B (base),test-124,survey:T007,yo,Ẹ káàsán. 2-bedroom flat ní southgate. Rent jẹ́ 300k. Ṣé owó yìí pọ̀ jù?,"```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""2-bedroom flat"", ""fees"": {""rent"": 300, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": "" yìí"", ""amount"": 300}]}
+```","Omo, my friend! So, your rent is indeed a bit high, eh? 
+
+The Rent is 300,000 Naira. That’s a typical range for a 2-bedroom flat in FUTA South Gate, usually around 20-30 reports. 
+
+You might want to check with the landlord to see if they can offer a discount or if there are any payment plans available.  You can also try contacting FairRent directly to discuss your situation. 
+
+Let’s see what they can do!","[20.0, 30.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-125,variant:T007,pcm,"Boss, two bedroom for southgate o. House money na 300k, agency 15000, lawyer money 45k, inspection na 3,000, development fee 30000. Dem no dey overcharge me so?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""2-bedroom flat"", ""fees"": {""rent"": 30000, ""agency"": 15000, ""agreement"": 45000, ""caution"": 3000, ""inspection"": 3000, ""other"": []}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo! Hello! As your FairRent Akure assistant, I’m here to help you check your rent and house fees. Let’s take a look at the results.
+
+Okay, so here’s what we’ve got:
+
+*   **Rent:** You’re paying 300,000 Naira. That’s a bit low, especially considering the number of reports – around 5. It’s a typical range for this type of property.
+*   **Agency Fee:** 15,000 Naira. That’s a 2.5% share of your rent. It’s considered normal.
+*   **Agreement/Legal Fee:** 45,000 Naira. This is above the usual range, so it’s a potential flag.
+*   **Inspection Fee:** 30,000 Naira. This is a standard fee.
+*   **Development Fee:** 30,000 Naira. This is also a standard fee.
+
+**Next Steps:**
+
+1.  **Investigate the Agreement/Legal Fee:**  Let’s check with the FairRent team to understand why this is above the typical.  They can look into the details of the agreement and see if there’s a reason for the higher charge.
+2.  **Review the Reports:**  The 5 reports are important.  We need to understand what’s causing the concern.  Are there any recurring issues?
+3.  **Contact FairRent:**",[2.5],0,0,0.0,0,0,0.0,0,0.8,0
+Gemma 3 1B (base),test-126,variant:T007,pcm,"My guy, check this 2-bedroom flat for FUTA South Gate. Rent 300k, agent money 30k, lawyer money 45000, inspection na 10,000.","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""2-bedroom flat"", ""fees"": {""rent"": 300000, ""agency"": 30000, ""agreement"": 45000, ""caution"": 10000, ""inspection"": 10000}, ""language"": ""en"", ""area"": null, ""house_type"": null, ""fees"": {""rent"": 300000, ""agency"": 30000, ""agreement"": 45000, ""caution"": 10000, ""inspection"": 10000}, ""other"": [{""name"": ""Inspection"", ""amount"": 10000}]}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 385,000 Naira.
+
+Here’s a breakdown:
+
+*   **Rent:** 300,000 Naira – That’s a bit low, considering the number of reports. We’re usually seeing rent ranges between 250,000 - 400,000 Naira.
+*   **Agency Fee:** 30,000 Naira – This is a normal amount.
+*   **Agreement/Legal Fee:** 45,000 Naira – This is a little higher than usual, but it’s perfectly acceptable. We usually see this range between 30,000 - 60,000 Naira.
+*   **Inspection Fee:** 10,000 Naira – This is also a bit higher than typical. We usually see this range between 5,000 - 10,000 Naira.
+
+**Next Steps:**
+
+1.  **Check Your Rent:**  Let’s see if you’re actually paying the full rent amount.  You can check your account online or with the FairRent agent.
+2.  **Talk to the Agent:**  Reach out to the agent who handled your agreement.  They can give you a more accurate picture of what’s expected.
+3.  **Compare to Similar Properties:**  See if similar","[250000.0, 400000.0, 60000.0]",1,1,0.5,0,0,1.0,0,1.0,0
+Gemma 3 1B (base),test-127,survey:T008,en,Quick question: single room at Ologede. Yearly rent is 50000. Too much?,"```json
+{""intent"": ""fee_check"", ""area"": ""Ologede"", ""house_type"": ""Single room"", ""fees"": {""rent"": 50000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""null"", ""amount"": null}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent check for Ologede.
+
+Here’s what we see:
+
+*   **Rent:** 50,000 Naira
+*   **Verdict:** Normal
+*   **Typical Range:** Usually between 40,000 - 60,000 Naira.
+*   **Number of Reports:** 8 reports.
+*   **Median:** 60,000 Naira.
+
+**Next Steps:**
+
+You’ve got a good rent amount. It’s within the typical range.  You can check with your landlord to see if there are any potential adjustments.  If you’re not happy with the amount, you can discuss it with them.  You can also look into if there are any recent reports about the rent amount.
+
+Do you want me to help you explore that further?",[40000.0],0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-128,variant:T008,yo,"Ẹ káàsán. room ní Ologede. Owó ilé: 50,000. owó agent: 2,000. agreement: 5,000. caution: ₦5,000. inspection jẹ́ ₦3,000. agent transport: ₦30,000. Ṣé owó yìí pọ̀ jù?","```json
+{""intent"": ""fee_check"", ""area"": ""Ologede"", ""house_type"": ""PG hostel"", ""fees"": {""rent"": 50000, ""agency"": 2000, ""agreement"": 5000, ""caution"": 5000, ""inspection"": 3000, ""other"": [{""name"": ""transport"", ""amount"": 30000}]}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 95000 Naira. That’s a bit higher than the usual range, around 60000-80000 Naira. You’ve got 8 reports, which is a decent number.  The “Agency fee” is 2000 Naira, which is a standard amount. The “Caution fee” is 5000 Naira, and the “Inspection fee” is 3000 Naira.  The “Agent transport” is flagged, which is a concern.
+
+**Here’s what you should do:**
+
+1.  **Investigate the “Agent transport” flag:**  It’s a red flag.  Let’s check with the agent to understand why they’re charging so much.  They might need to adjust their fees or have a problem with their transport.
+2.  **Review the “Agency fee”:**  It’s a reasonable amount, but it’s higher than the average.  Could you discuss this with the agency?
+3.  **Check the “Rent” fee:**  It’s normal.  Let’s see if there’s a reason for the increase.
+
+Do you want me to help you contact the agency or look into the details of the inspection fee?",[80000.0],0,0,0.0,0,0,0.0,0,0.0,1
+Gemma 3 1B (base),test-129,variant:T008,pcm,"My guy, check this single room for Ologede. Rent na 50000, agency ₦2,000, agreement 2000, inspection 10,000.","```json
+{""intent"": ""fee_check"", ""area"": ""Ologede"", ""house_type"": ""Single room"", ""fees"": {""rent"": 50000, ""agency"": 2000, ""agreement"": 2000, ""caution"": null, ""inspection"": 10000}, ""language"": ""en""}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 64000 Naira.
+
+Here’s the breakdown:
+
+*   **Rent:** 50000 Naira – That’s a normal amount for a single room in Ologede. You’ve got around 8 reports of this fee.
+*   **Agency Fee:** 2000 Naira – This is a small percentage of your rent, usually around 4% of the rent.
+*   **Agreement/Legal Fee:** 2000 Naira – Again, a standard fee for legal paperwork.
+*   **Inspection Fee:** 10000 Naira – This is slightly above the typical range. You’ve got 8 reports of this fee.
+
+**Next Steps:**
+
+1.  **Check with the Agency:**  Reach out to the agency you’re paying through to understand why the inspection fee is higher. They might have a specific reason.
+2.  **Review Your Rent:**  Compare your rent to similar properties in Ologede.  Is it significantly higher than the average?
+3.  **Consider Your Needs:**  Is the inspection fee a significant portion of your budget?  If it’s a large amount, you might want to discuss this with the agency.
+
+Do you need any more help with this?  Let me know!  I’m here to guide you.  Ẹ jẹ ńlá! (",[],1,1,0.875,1,0,1.0,1,0.0,0
+Gemma 3 1B (base),test-130,survey:T014,yo,"Ẹ káàsán. single room ní FUTA South Gate. Owó ilé: 55000. agency fee jẹ́ 10k. agreement jẹ́ 15,000. caution: 10000. inspection jẹ́ ₦2,500. Ṣé owó yìí pọ̀ jù?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Single room"", ""fees"": {""rent"": 55000, ""agency"": null, ""agreement"": 15000, ""caution"": 10000, ""inspection"": 2500, ""other"": []}, ""language"": ""en"", ""package"": ""pcm""}
+```","Omo! Hello! As your FairRent Akure assistant, let’s check your fees.
+
+Okay, so your total rent and house fees are NGN 92500.
+
+Here’s a breakdown:
+
+*   **Rent:** NGN 55,000 – This is a typical range for a single room in Akure. You’ve got 8 reports, which is a bit high.
+*   **Agency Fee:** NGN 10,000 – This is above the usual range.
+*   **Agreement/Legal Fee:** NGN 15,000 – This is also above the typical.
+*   **Caution Fee:** NGN 10,000 – This is also above the typical.
+*   **Inspection Fee:** NGN 2,500 – This is normal.
+
+**Next Steps:**
+
+1.  **Review the Reports:**  It’s good you’ve noticed the high number of reports.  Let’s investigate why.
+2.  **Contact FairRent:**  Reach out to FairRent directly to discuss your concerns. They can provide more specific information about your situation and potentially negotiate a fairer arrangement.
+3.  **Check Your Lease:**  Make sure your lease agreement clearly outlines all fees and what they cover.
+
+Do you need help with that?",[],1,1,0.75,0,0,1.0,1,1.0,1
+Gemma 3 1B (base),test-131,variant:T014,pcm,"Boss, room for FUTA southgate o. Rent na 55,000, agent money ₦6,000, caution money na 11000, documentation fee 50000. Dem no dey overcharge me so?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Single room"", ""fees"": {""rent"": 55000, ""agency"": null, ""agreement"": null, ""caution"": 11000, ""inspection"": null, ""other"": [{""name"": ""documentation fee"", ""amount"": 50000}]}
+```","Omo! Hello! As your FairRent Akure assistant, let’s check your fees.
+
+Okay, so your total fee is 122000 Naira.
+
+Here’s a breakdown:
+
+*   **Rent:** 55,000 Naira – This is a typical range for a single room in FUTA South Gate. You’ve got 8 reports, which is a bit high.
+*   **Agency Fee:** 6,000 Naira – This is 10.9% of your rent. It’s above the usual range, so we’ll need to investigate further.
+*   **Caution Fee:** 11,000 Naira – This is 20% of your rent. It’s also above the usual range.
+*   **Documentation Fee:** 50,000 Naira – This is a significant amount and is flagged.
+
+**Next Steps:**
+
+1.  **Contact the House Owner:** Reach out to the house owner and explain your concerns about the high fees.  They might have a reason for the increased charges.
+2.  **Review the Report Details:**  Look at the 8 reports – are there any patterns?  Is there a consistent issue with these fees?
+3.  **Check the House Agreement:**  Review the house agreement to understand the specific terms and conditions for these fees.
+
+Do you need me to help you draft a polite email to the house owner or find more information about the agreement?",[10.9],0,0,0.0,0,0,0.0,0,1.0,0
+Gemma 3 1B (base),test-132,variant:T014,pcm,"My guy, check this single room for southgate. Rent na 55k, agent money na 3,000, caution na 6,000, inspection money 2000.","```json
+{""intent"": ""fee_check"", ""area"": ""Southgate"", ""house_type"": ""Single room"", ""fees"": {""rent"": 55000, ""agency"": null, ""agreement"": null, ""caution"": 6000, ""inspection"": 2000}, ""language"": ""en""}
+```","Omo! Hello! As your FairRent Akure assistant, let’s check your fees.
+
+Okay, here’s what you see:
+
+*   **Rent:** Your rent is currently at 55,000 Naira.
+*   **Agency Fee:** You’re paying 3,000 Naira as an agency fee. This is a standard amount.
+*   **Caution Fee:** You’re paying 6,000 Naira as a caution fee. This is also typical.
+*   **Inspection Fee:** You’re paying 2,000 Naira as an inspection fee. This is a normal amount.
+*   **Total:** The total fees for this property are 66,000 Naira.
+
+**Next Steps:**
+
+1.  **Compare to the Range:** Your rent is within the typical range of 55,000 - 65,000 Naira.
+2.  **Check with the Agency:**  It’s always a good idea to confirm with the agency about their fees and what’s included.
+3.  **Review the Inspection Fee:**  The inspection fee is normal.
+
+Do you need any more information or want me to elaborate on anything?",[65000.0],1,1,0.625,0,0,0.75,0,1.0,0
+Gemma 3 1B (base),test-133,survey:T017,pcm,"Boss, selfcon for Apata o. Rent 150k. Dem no dey overcharge me so?","```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Single room"", ""fees"": {""rent"": 150000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""dem"", ""amount"": ""150k""}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Greetings!
+
+Okay, let’s take a look at your rent and house fees.
+
+Here’s what we see:
+
+*   **Rent:** 150,000 Naira
+*   **House Fee:** 180,000 Naira
+*   **Total:** 330,000 Naira
+
+That’s a pretty standard range for a Self-contain property in Apatapiti. You’ve got around 33 reports, and the median is 200,000 Naira.  
+
+**Next Steps:**
+
+*   **Compare to Similar Properties:**  See if similar properties in the same area are charging more or less.  You can check online listings or ask around.
+*   **Check with the Estate Manager:**  Reach out to the estate manager to understand if there are any special arrangements or potential discounts. 
+
+Do you want me to help you find some similar properties in the area, or would you like me to explore any potential discounts? 
+
+Ẹkan! (Bless you!)",[330000.0],0,0,0.0,0,0,0.0,0,1.0,0
+Gemma 3 1B (base),test-134,variant:T017,pcm,"My guy, check this self-con for Apata. Rent ₦150,000, agent money na ₦8,000, agreement na ₦22,000, caution na ₦15,000.","```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti, Aule, Oba-Ile, Ologede, Wesco, Alagbaka, Ijapo Estate, Oke-Ijebu, Shagari Village, Isinkan, Arakale, Oda Road, Ondo Road, Ijoka, Roadblock"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": null, ""agreement"": 22000, ""caution"": 15000, ""inspection"": null, ""other"": [{""name"": ""8000"", ""amount"": 8000}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 195,000 Naira.
+
+*   **Rent:** It’s normal, around 150,000 Naira. You’ve got a decent amount.
+*   **Agency Fee:** That’s 8,000 Naira, which is 5.3% of your rent. It’s within the typical range.
+*   **Agreement/Legal Fee:** That’s 22,000 Naira, or 14.7% of your rent. It’s a little above the usual, but not drastically so.
+*   **Caution Fee:** 15,000 Naira, which is 10% of your rent. This is also normal.
+
+**Next Steps:**
+
+You’ve flagged the Agreement/Legal Fee, which is a good thing! It’s a bit higher than usual.  You might want to discuss this with your landlord or FairRent to understand why it’s higher.  You can also check your lease agreement to see if there are any clauses about fees.
+
+Do you want me to help you find some resources about fair rent practices in Akure?","[5.3, 14.7]",0,0,0.0,0,0,0.0,0,1.0,0
+Gemma 3 1B (base),test-135,variant:T017,pcm,"Boss, self-con for Apata o. Rent 150000, agency 15,000, agreement ₦15,000, caution na ₦15,000, inspection money na ₦1,000, documentation fee na 10000. Dem no dey overcharge me so?","```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti, Aule, Oba-Ile, Ologede, Wesco, Alagbaka, Ijapo Estate, Oke-Ijebu, Shagari Village, Isinkan, Arakale, Oda Road, Ondo Road, Ijoka, Roadblock"", ""house_type"": ""Mini flat"", ""fees"": {""rent"": 150000, ""agency"": 15000, ""agreement"": 15000, ""caution"": 15000, ""inspection"": 1000, ""other"": [{""name"": ""documentation fee"", ""amount"": 10000}]}, ""language"": ""en"", ""house_type"": ""Mini flat""}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 206000 Naira. That’s a bit higher than the usual range, around 180,000 - 200,000 Naira. You’ve got 33 reports, which is a decent number.
+
+Let’s look at the fees individually:
+
+*   **Rent:** This is normal, at 150,000 Naira. You’ve got 33 reports, so that’s a significant number.
+*   **Agency Fee:** This is 15,000 Naira, and it’s 15% of your rent. That’s a normal share.
+*   **Agreement/Legal Fee:** 15,000 Naira, also normal.
+*   **Caution Fee:** 15,000 Naira, also normal.
+*   **Inspection Fee:** 10,000 Naira, this is a bit higher than the usual.
+*   **Documentation Fee:** 10,000 Naira, this is a red flag. It’s significantly higher than the usual.
+
+**Next Steps:**
+
+The documentation fee is a concern. It’s a substantial amount, and we need to investigate why it’s so high.  You should contact FairRent directly to understand the reason for this fee.  Let’s also check with the agency",[],1,1,0.625,1,0,0.8333333333333334,1,0.8333333333333334,0
+Gemma 3 1B (base),test-136,survey:T028,yo,"Ẹ káàsán. self-contain ní FUTA South Gate. Owó ilé: 250k. owó agent jẹ́ 50000. agreement fee jẹ́ ₦30,000. caution fee: ₦30,000. inspection jẹ́ 1500. Ṣé owó yìí pọ̀ jù?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": null, ""agency"": 50000, ""agreement"": 30000, ""caution"": 30000, ""inspection"": 1500, ""other"": []}, ""language"": ""en"", ""package"": ""pcm""}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 361500 Naira. That’s a bit higher than the usual range, around 250,000 - 280,000 Naira. You’ve got 16 reports, which is a decent number.
+
+Let’s look at the fees individually:
+
+*   **Rent:** This is normal, at 250,000 Naira.
+*   **Agency Fee:** This is 50,000 Naira, and it’s a little above the typical 0.2 - 0.3 share.
+*   **Agreement/Legal Fee:** This is 30,000 Naira, and it’s also a bit higher than the usual 0.12 - 0.15 share.
+*   **Caution Fee:** This is 30,000 Naira, and it’s normal.
+*   **Inspection Fee:** 15,000 Naira – this is normal.
+
+**Next Steps:**
+
+You might want to check with your FairRent agent to see if they can explain why these fees are higher.  You can also ask them if there’s anything you can do to reduce the amount.  You can also review your agreement with the FairRent to see if there are any clauses about fees.
+
+Do you need me to help you with anything else?","[280000.0, 0.3, 15000.0]",1,1,0.75,0,0,0.0,0,0.8,1
+Gemma 3 1B (base),test-137,variant:T028,en,"Good evening. Found a self contain near southgate. Yearly rent is 250,000. agency fee is 25k. legal fee: 25,000. caution deposit: ₦50,000. inspection is 1,000. Does this look okay?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": null, ""agreement"": null, ""caution"": 50000, ""inspection"": 1000}, ""language"": ""en"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 25000, ""agreement"": null, ""caution"": null, ""inspection"": 1000}, ""other"": [{""name"": ""Legal Fee"", ""amount"": 25000}]}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 351000 Naira.
+
+Here’s a breakdown:
+
+*   **Rent:** 250,000 Naira – This is a typical range for a Self-contain property in FUTA South Gate. You’ve got around 16 reports, which is a decent number.
+*   **Agency Fee:** 25,000 Naira – This is 17.5% of your rent.
+*   **Agreement/Legal Fee:** 25,000 Naira – This is 17.5% of your rent.
+*   **Caution Fee:** 50,000 Naira – This is above the usual maximum of 15%.
+*   **Inspection Fee:** 10,000 Naira – This is a normal fee.
+
+**Next Steps:**
+
+1.  **Check your agreement:** Review your lease agreement to see if there are any clauses about these fees.
+2.  **Contact FairRent:** Reach out to FairRent directly to discuss these fees and understand the reasons behind them. They can provide more detailed information and potentially offer a negotiation.
+3.  **Document everything:** Keep a record of all communication with FairRent and any agreements you reach.
+
+Do you need any further assistance with this?","[17.5, 17.5, 10000.0]",1,1,0.75,0,0,0.8,0,0.8,1
+Gemma 3 1B (base),test-138,variant:T028,pcm,"Boss, selfcon for South Gate o. Rent na 250,000, agent money na 50000, lawyer money na ₦25,000, caution money 50000, inspection na 5000. Dem no dey overcharge me so?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Single room"", ""fees"": {""rent"": 250000, ""agency"": null, ""agreement"": null, ""caution"": 50000, ""inspection"": 5000, ""other"": []}, ""language"": ""en"", ""house_type"": ""PG hostel""}
+```","Omo! Hello! As your FairRent assistant, let’s check your fees.
+
+Okay, here’s what you see:
+
+*   **Rent:** Your rent is currently at 250,000 Naira. That’s a normal amount for a Self-contain property in FUTA South Gate. You’ve got around 16 reports on this.
+*   **Agency Fee:** The agency fee is 50,000 Naira. That’s a bit above the typical range, around 0.2 of your rent.
+*   **Agreement/Legal Fee:** This is 25,000 Naira. This is considered normal.
+*   **Caution Fee:** This is 50,000 Naira. This is also considered normal.
+*   **Inspection Fee:** This is 50,000 Naira. This is also considered normal.
+
+**Total Fees:** 380,000 Naira.
+
+**Verdict:** Your fees are within the expected range.
+
+**Next Steps:**
+
+You might want to review your agreement with the property owner to see if there are any clauses about these fees. If you’re unsure, you can contact FairRent directly for clarification.  Don’t hesitate to ask if you need anything else!  Let’s keep things smooth.  Ẹ jẹ ńlá! (Bless you!)",[],1,1,0.5,0,0,0.6,1,1.0,0
+Gemma 3 1B (base),test-139,survey:T030,en,"Quick question: selfcon at southgate. Yearly rent: 250,000, agent fee: 10k, agreement fee is 10000, inspection fee is 5,000. Too much?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": null, ""agreement"": 10000, ""caution"": null, ""inspection"": 5000, ""other"": [{""name"": ""Too much"", ""amount"": 250000}]}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent Akure check.
+
+Here’s what you see:
+
+*   **Rent:** Your rent is currently at 250,000 Naira.
+*   **Agency Fee:** There’s a 10,000 Naira agency fee. This is a standard charge for managing the property.
+*   **Agreement/Legal Fee:** You have a 10,000 Naira fee for legal paperwork related to the agreement.
+*   **Inspection Fee:** There’s a 5,000 Naira inspection fee. This is a normal charge for inspections.
+*   **Total:** The total amount for these fees is 27,500 Naira.
+
+**Next Steps:**
+
+*   **Review your agreement:**  Double-check your agreement with the property owner to understand exactly what’s included in each fee.
+*   **Contact the property owner:**  If you have any questions about the fees, it’s always a good idea to reach out to the owner directly.  They can clarify any potential charges.
+
+Do you need anything else? 😃",[27500.0],0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-140,variant:T030,en,"Quick question: self contain at South Gate. Yearly rent is ₦250,000, agency fee: ₦75,000, caution fee: 50,000, inspection fee: ₦1,000, cleaning fee is 10000. Too much?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": null, ""agreement"": null, ""caution"": 50000, ""inspection"": 1000, ""other"": []}, ""language"": ""en"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 75000, ""agreement"": null, ""caution"": 50000, ""inspection"": 1000, ""other"": []}}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent fees. Here’s what we’ve found:
+
+*   **Rent:** Your rent is currently at 250,000 Naira. This is generally within the typical range for a Self-contain property in FUTA South Gate, with around 16 reports.
+*   **Agency Fee:** You’re paying 75,000 Naira as an agency fee. This is a bit higher than the usual range, and it’s flagged as a red flag.  It’s 0.3% of your rent.
+*   **Caution Fee:** You’ve paid 50,000 Naira as a caution fee. This is above the usual maximum of 50,000 Naira.
+*   **Inspection Fee:**  The inspection fee is 10,000 Naira – this is normal.
+*   **Cleaning Fee:**  You’ve spent 10,000 Naira on a cleaning fee – this is also normal.
+
+**Next Steps:**
+
+1.  **Review the Agency Fee:**  It’s important to understand why the agency fee is higher.  You might want to discuss this with the FairRent team.
+2.  **Investigate the Caution Fee:**  Let’s check if there’s a reason for the caution fee to be above the usual amount.
+3.  **Check the Cleaning Fee:**  It’s good to be aware of",[],1,1,1.0,0,0,0.8,1,0.8,1
+Gemma 3 1B (base),test-141,variant:T030,en,"Good evening. Found a self contain near FUTA southgate. Rent is 250,000, agent fee is 25k, inspection is 5000. Does this look okay?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": 5000}, ""language"": ""en"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 25000, ""agreement"": null, ""caution"": null, ""inspection"": 5000}, ""other"": [{""name"": ""Inspection"", ""amount"": 5000}]}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent Akure check.
+
+Here’s what you see:
+
+*   **Rent:** Your rent is currently at 250,000 Naira.
+*   **Agency Fee:** Your agency fee is 25,000 Naira.
+*   **Inspection Fee:** Your inspection fee is 5,000 Naira.
+
+**Typical Range:**  The typical rent range for a Self-contain property in FUTA South Gate is usually between 180,000 - 280,000 Naira.  We’ve seen 16 reports, and the median rent is 195,000 Naira.
+
+**Next Steps:**
+
+1.  **Compare to Similar Properties:**  Check online listings for similar Self-contain properties in FUTA South Gate to see if the rent and fees are within a reasonable range.
+2.  **Review Your Contract:**  Carefully review your lease agreement to understand the specific terms of the rent and fees.
+3.  **Contact FairRent:** If you’re unsure about anything, don’t hesitate to contact FairRent directly. They can provide more detailed information and clarification.
+
+Do you want me to help you find some similar listings or explain anything further?",[180000.0],1,1,1.0,1,1,1.0,0,1.0,1
+Gemma 3 1B (base),test-142,survey:T033,yo,"Ẹ káàsán. self contain ní Aule road. Owó ilé jẹ́ 240,000, owó agent: 50,000, inspection fee jẹ́ 3,500, cleaning jẹ́ 20000. Ṣé owó yìí pọ̀ jù?","```json
+{""intent"": ""fee_check"", ""area"": ""Aule road"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 240000, ""agency"": 50000, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""cleaning"", ""amount"": 20000}]}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 313500.
+
+*   **Rent:** It’s a normal amount – 240,000 Naira. That’s a typical range for a Self-contain property in Akure. We’ve seen 33 reports on this, so it’s a fairly common fee.
+*   **Agency Fee:**  The agency fee is 50,000 Naira.  That’s a 20.8% share of your rent.  It’s a bit higher than the usual range, so we’ll need to investigate further.
+*   **Inspection Fee:**  The inspection fee is 35,000 Naira – this is a normal amount.
+*   **Cleaning Fee:** The cleaning fee is 20,000 Naira – this is a red flag, it’s significantly higher than the usual range.
+
+**Next Steps:**
+
+1.  **Check with the Agency:**  Reach out to the agency you’re paying through.  They can explain the reason for the higher fee and potentially negotiate a lower rate.
+2.  **Review the Inspection Report:**  Look closely at the inspection report.  Is there anything unusual that could be causing the higher fee?
+3.  **Document Everything:** Keep a record of all communication with the agency and the inspection report.
+
+Do you need any more help","[20.8, 35000.0]",0,0,0.0,0,0,0.0,0,0.75,1
+Gemma 3 1B (base),test-143,variant:T033,pcm,"My guy, check this self contain for Aule. House money na 240,000, agent money na ₦12,000, agreement na 12000, inspection money na 3,000.","```json
+{""intent"": ""fee_check"", ""area"": ""Aule"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 240000, ""agency"": null, ""agreement"": 12000, ""caution"": null, ""inspection"": 3000, ""other"": []}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo! Hello! So, your FairRent check shows a total of 267000 for your self-contain house.
+
+Let’s break it down:
+
+*   **Rent:** You’re paying 240000. That’s a normal amount for a self-contain house in Akure. You’ve got around 33 reports for this, which is a decent number.
+*   **Agency Fee:** You’re paying 12000. This is 5% of your rent.
+*   **Agreement/Legal Fee:** You’re paying 12000. This is 5% of your rent.
+*   **Inspection Fee:** You’re paying 3000. This is a normal fee for inspections.
+
+**Next Steps:**
+
+*   **Compare to the Range:** Your total is 267000, which is within the typical range for a self-contain house in Akure.
+*   **Review the Reports:**  The 33 reports are good – it suggests the house is well-maintained.
+*   **Consider Your Needs:**  Do you feel the fees are reasonable for the quality of the house and the services provided?
+
+If you’re not happy with any of these fees, you can discuss them with the FairRent team. They’re here to help!  Do you want me to explain anything further?",[],0,0,0.0,0,0,0.0,1,0.0,0
+Gemma 3 1B (base),test-144,variant:T033,en,"Good evening. Found a self-con near Aule. Rent: ₦240,000, agency fee: 60000, legal fee is 12000, development fee is 50k. Does this look okay?","```json
+{""intent"": ""fee_check"", ""area"": ""Aule"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 240000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""60000"", ""amount"": 60000}]}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent Akure check results.
+
+Here’s what you see:
+
+*   **Rent:** Your rent is currently at 240,000 Naira.
+*   **Agency Fee:** The agency fee is 60,000 Naira.
+*   **Agreement/Legal Fee:** The agreement/legal fee is 12,000 Naira.
+*   **Development Fee:** The development fee is 50,000 Naira.
+
+**Typical Range:**  These fees generally fall within a range of 180,000 - 200,000 Naira.  We’ve seen 33 reports related to this, which is a decent number.
+
+**Next Steps:**
+
+1.  **Review the Agency Fee:** The agency fee of 60,000 Naira is a potential red flag. It’s higher than the typical range.  Let’s discuss this with the agency to understand why it’s so significant.
+2.  **Investigate the Development Fee:** The development fee of 50,000 Naira is also a concern.  We need to understand the details of this fee and how it’s calculated.
+3.  **Check the Agreement/Legal Fee:**  It’s good to verify the agreement/legal fee.  Ensure it’s reasonable for your situation.
+
+To help me give you more tailored advice, could you tell me",[],0,0,0.0,0,0,0.0,1,1.0,1
+Gemma 3 1B (base),test-145,survey:T035,en,Good evening. Found a self contain near northgate. Yearly rent: 220k. Does this look okay?,"```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti, Aule, Oba-Ile, Ologede, Wesco, Alagbaka, Ijapo Estate, Oke-Ijebu, Shagari Village, Isinkan, Arakale, Oda Road, Ondo Road, Ijoka, Roadblock"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 220000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent fee result.
+
+Here’s what we see:
+
+*   **Rent:** 220,000 Naira
+*   **Verdict:** Normal
+*   **Typical Range:** Usually between 180,000 - 240,000 Naira.
+*   **Number of Reports:** 9 reports.
+*   **P25:** 180,000 Naira
+*   **Median:** 200,000 Naira
+*   **P75:** 240,000 Naira
+
+**Next Steps:**
+
+You’re doing great!  It looks like your rent is within the expected range.  You can check your account online or contact FairRent directly if you have any questions about the fee.  Don’t hesitate to ask! 
+
+Do you want me to help you with anything else?","[25.0, 75.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-146,variant:T035,pcm,"Boss, self-contain for FUTA North Gate o. Rent 220k, agent money na ₦55,000, agreement na 11k, inspection na 3,000. Dem no dey overcharge me so?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA North Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 220000, ""agency"": null, ""agreement"": 55000, ""caution"": null, ""inspection"": 3000, ""other"": [{""name"": ""overcharge"", ""amount"": null}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent result.
+
+Okay, so your total fee is 289,000 Naira.
+
+Here’s the breakdown:
+
+*   **Rent:** 220,000 Naira – This is a normal amount for a Self-contain property in FUTA North Gate. You’ve got around 9 reports on this.
+*   **Agency Fee:** 55,000 Naira – This is 25% of your rent.
+*   **Agreement/Legal Fee:** 11,000 Naira – This is a small fee for legal paperwork.
+*   **Inspection Fee:** 30,000 Naira – This is a standard fee for inspections.
+*   **Total:** 289,000 Naira
+
+**Next Steps:**
+
+1.  **Check with the Agency:**  Reach out to the agency that handled your agreement. They can give you a more precise understanding of why the agency fee is flagged.
+2.  **Review Your Rent:**  Compare your rent amount to the typical range for Self-contain properties in FUTA North Gate.  If it’s significantly higher, it might be worth discussing with the agency.
+3.  **Consider Your Needs:**  Do you feel the fees are reasonable for the property and your situation?
+
+Do you want me to help you find some resources for understanding FairRent fees in Akure?",[30000.0],0,0,0.0,0,0,0.0,0,0.75,0
+Gemma 3 1B (base),test-147,variant:T035,pcm,"My guy, check this self contain for North Gate. Rent 220k, agency 22000, caution money na ₦22,000, inspection 3000.","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA North Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 220000, ""agency"": 22000, ""agreement"": null, ""caution"": 22000, ""inspection"": 3000}, ""language"": ""en"", ""house_type"": ""Self-contain""}
+```","Omo! Hello! As your FairRent Akure assistant, I’m happy to check your rent and house fees.
+
+Okay, let’s take a look at what you’ve got. Here’s the breakdown:
+
+*   **Rent:** You’re paying 220,000 Naira. That’s a normal amount for a Self-contain property in FUTA North Gate. We usually see these ranges between 180,000 - 240,000 Naira. There are 9 reports related to this fee.
+*   **Agency Fee:** 22,000 Naira. This is 10% of the rent. It’s considered normal.
+*   **Caution Fee:** 22,000 Naira. Again, this is 10% of the rent. It’s also normal.
+*   **Inspection Fee:** 30,000 Naira. This is a standard fee for inspections.
+*   **Total:** 267,000 Naira.
+
+**Next Steps:**
+
+You can check with your landlord or the FairRent team to discuss if these fees are fair for your situation.  If you’re not happy with anything, you can always reach out to us for further assistance.  Do you want me to help you find a contact person or provide some resources?",[30000.0],1,1,0.875,1,0,1.0,0,0.75,0
+Gemma 3 1B (base),test-148,survey:T037,pcm,"My guy, check this self contain for FUTA West Gate. Rent 200,000. agent money na 15000. lawyer money 5k. caution money na 5k. caretaker fee na 50,000.","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA West Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 200000, ""agency"": null, ""agreement"": null, ""caution"": 5000, ""inspection"": null, ""other"": [{""name"": ""caretaker"", ""amount"": 50000}]}
+```","Omo! Hello! As your FairRent assistant, let’s check your fees.
+
+Okay, here’s what we’ve got:
+
+*   **Rent:** You’re paying 200,000 Naira. That’s a normal amount for a Self-contain property in FUTA West Gate. We’ve seen 33 reports for this.
+*   **Agency Fee:** 15,000 Naira. This is a 7.5% share of your rent. It’s considered normal.
+*   **Agreement/Legal Fee:** 50,000 Naira. This is a 2.5% share of your rent. It’s normal.
+*   **Caution Fee:** 50,000 Naira. This is a 2.5% share of your rent. It’s normal.
+*   **Caretaker Fee:** 50,000 Naira. This is a 2.5% share of your rent. It’s red flag, meaning it’s higher than usual.
+
+**Next Steps:**
+
+1.  **Contact the Property Owner:** Reach out to the owner of the property to discuss the Caretaker Fee. It’s a significant increase and needs to be addressed.
+2.  **Review the Agreement:**  Check the agreement for any clauses related to the Caretaker Fee.
+3.  **Consider Your Budget:**  Ensure the fees align with your budget and the property’s value.
+
+Do","[7.5, 2.5, 2.5, 2.5]",0,0,0.0,0,0,0.0,0,1.0,0
+Gemma 3 1B (base),test-149,variant:T037,en,"Quick question: self-contain at West Gate. Yearly rent: ₦200,000, agency fee: 50k, caution deposit is ₦20,000, inspection is 1000. Too much?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA West Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 200000, ""agency"": null, ""agreement"": null, ""caution"": 20000, ""inspection"": 1000}, ""language"": ""en"", ""other"": [{""name"": ""Too much"", ""amount"": 200000}]}
+```","Omo! Hello there! As your FairRent Akure assistant, I’m happy to check your fees.
+
+Okay, let’s take a look. Here’s what we’ve got:
+
+*   **Rent:** You’re paying 200,000 Naira. That’s a typical range for a Self-contain property in FUTA West Gate, and we’ve seen 33 reports on this.
+*   **Agency Fee:** 50,000 Naira. This is 25% of your rent.
+*   **Caution Fee:** 20,000 Naira. This is a normal fee.
+*   **Inspection Fee:** 10,000 Naira. This is a normal fee.
+*   **Total:** 271,000 Naira.
+
+**Next Steps:**
+
+It looks like you’re within the typical range for this property type. However, the Agency Fee is a red flag. It’s higher than the usual.  Let’s contact the FairRent team to discuss this further. They can investigate the reason for the higher fee and see if it’s justified.  Don’t worry, we’ll help you understand what’s going on.  Would you like me to send you a message with the FairRent team’s contact details?",[10000.0],1,1,0.875,0,0,0.75,0,1.0,1
+Gemma 3 1B (base),test-150,variant:T037,pcm,"Boss, self contain for FUTA West Gate o. Rent 200k, agency 40k, caution money na 20000, inspection money na 5,000. Dem no dey overcharge me so?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA West Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 200000, ""agency"": 40000, ""agreement"": null, ""caution"": 20000, ""inspection"": 5000, ""other"": []}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo! Hello there! As your FairRent Akure assistant, I’m checking your fee results.
+
+Okay, so your total fee is 265,000 Naira.
+
+Here’s a breakdown:
+
+*   **Rent:** 200,000 Naira – This is a typical range for a Self-contain property in FUTA West Gate. You’ve got around 33 reports, which is a decent number.
+*   **Agency Fee:** 40,000 Naira – This is 20% of your rent. It’s slightly above the usual range, but not drastically so. You’ve got 33 reports, so that’s a good amount.
+*   **Caution Fee:** 20,000 Naira – This is a normal fee.
+*   **Inspection Fee:** 5,000 Naira – This is also a normal fee.
+*   **Total:** 265,000 Naira
+
+**Next Steps:**
+
+You can check with your landlord or the FairRent office to understand why the agency fee is higher.  You can also ask if there are any options to reduce the fee.  You can also check if there are any outstanding payments.
+
+Do you need me to help you with anything else?",[],0,0,0.0,0,0,0.0,1,1.0,0
+Gemma 3 1B (base),test-151,survey:T039,yo,"Ẹ káàsán. self-contain ní Apatapiti. Owó ilé jẹ́ 250,000, owó agent: ₦30,000, inspection: ₦1,000. Ṣé owó yìí pọ̀ jù?","```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": ₦1,000, ""other"": [{""name"": ""250,000"", ""amount"": 250000}]}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your Rent is currently at 250,000 Naira. That’s a bit higher than the usual range, around 200,000 - 250,000. We’ve got 33 reports on this, which is a decent number. The median Rent is 220,000 Naira, and the p75 Rent is 250,000 Naira.
+
+The Agency Fee is 30,000 Naira, and it’s 12% of the Rent. That’s above the typical range of 180,000 - 200,000 Naira.
+
+**Next Steps:** Let’s check with the agency to see if they can explain the increase. You might want to discuss this with your landlord to see if there’s a reason for the higher fee.  You can also look at your lease agreement to understand your rights.  If you’re still unsure, you can contact FairRent Akure for further assistance.  Do you want me to help you find some resources about your rights as a tenant?","[220000.0, 75.0]",0,0,0.0,0,0,0.0,0,0.6666666666666666,1
+Gemma 3 1B (base),test-152,variant:T039,en,"Good evening. Found a self contain near Apatapiti. Rent is 250k, agency fee: 25000, legal fee: 12k, inspection is 3000, development fee: 10000. Does this look okay?","```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": 3000, ""other"": [{""name"": ""development fee"", ""amount"": 10000}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent fees. Here’s what we’ve got:
+
+*   **Rent:** You’re paying 250,000 Naira. This is generally within the typical range for a Self-contain property in Apatapiti, with around 33 reports.
+*   **Agency Fee:** This is 25,000 Naira, representing 10% of your rent. It’s considered normal.
+*   **Agreement/Legal Fee:** 12,000 Naira – this is a standard fee for legal paperwork related to your tenancy agreement.
+*   **Inspection Fee:** 30,000 Naira – this is a normal fee for inspections.
+*   **Development Fee:** 100,000 Naira – This is flagged as a potential issue.
+
+**Next Steps:**
+
+It’s good to be aware of these fees.  We recommend contacting FairRent directly to discuss these charges and understand what’s driving the development fee. You can reach them at [Insert FairRent Contact Information Here - e.g., +1000000000000].  Let me know if you’d like me to help you draft a message for them!","[30000.0, 100000.0, 1000000000000.0]",0,0,0.0,0,0,0.0,0,0.6,1
+Gemma 3 1B (base),test-153,variant:T039,en,"Good evening. Found a self contain near Apata. Rent is ₦250,000. agency fee is 25,000. caution deposit: 25k. documentation fee: ₦20,000. Does this look okay?","```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti, Aule, Oba-Ile, Ologede, Wesco, Alagbaka, Ijapo Estate, Oke-Ijebu, Shagari Village, Isinkan, Arakale, Oda Road, Ondo Road, Ijoka, Roadblock"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 25000, ""agreement"": null, ""caution"": 25000, ""inspection"": null, ""other"": [{""name"": ""documentation fee"", ""amount"": 20000}]}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent Akure check.  Here’s what we see:
+
+*   **Rent:** Your rent is currently at 250,000 Naira.
+*   **Agency Fee:** You’re paying 25,000 Naira in agency fees. This is a typical share, usually around 10-15% of your rent.
+*   **Caution Fee:** You’re paying 25,000 Naira in caution fees. This is also a common amount, often around 5-10% of your rent.
+*   **Documentation Fee:** There’s a 20,000 Naira documentation fee. This is a flag, meaning we need to investigate further.
+
+**Typical Range:**  These fees generally fall within a range of 10-20% of your rent.  We’ve seen 33 reports for this property, which is a decent number.
+
+**Next Steps:**
+
+1.  **Investigate the Documentation Fee:**  The documentation fee is a red flag.  We need to understand *why* it’s there.  Could it be related to a specific issue or a potential oversight?
+2.  **Contact FairRent:**  Reach out to FairRent directly to discuss this flag and get clarification on the documentation fee.  They can help you understand the reason and potentially resolve it.
+
+Do you want me to help you contact FairRent or provide more information about","[5.0, 20.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-154,survey:T043,en,"Good evening. Found a self contain near FUTA southgate. Yearly rent is ₦150,000, agency fee is 50k. Does this look okay?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""50k"", ""amount"": 50000}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent fee results.
+
+Here’s what we’ve got:
+
+*   **Rent:** You’re paying 150,000 Naira.
+*   **Agency Fee:** This is 50,000 Naira, and it’s 33.3% of your rent.  That’s a bit higher than the usual range, around 195,000 - 250,000 Naira.
+*   **Total:** The total fee is 200,000 Naira.
+
+**Next Steps:**
+
+1.  **Check with the Agency:**  It’s always a good idea to contact the agency that’s charging the fee to understand why it’s higher. They might have a reason for the increase.
+2.  **Compare to Similar Properties:**  See if similar properties in your area are charging more. This can help you determine if the fee is justified.
+
+Do you want me to help you find contact information for the agency, or would you like me to explore other factors that might influence the fee?",[33.3],0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-155,variant:T043,yo,"Ẹ káàsán. self contain ní FUTA South Gate. Owó ilé jẹ́ 150k, owó agent jẹ́ 8,000, documentation fee: 20000. Ṣé owó yìí pọ̀ jù?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": 8000, ""agreement"": 20000, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""documentation fee"", ""amount"": 20000}]}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your Rent is currently at 150,000 Naira. That’s a normal amount for a Self-contain property in FUTA South Gate. You’ve got 16 reports, and the median Rent is 195,000 Naira.  The documentation fee is red flag, so let’s investigate that further.
+
+**Next Steps:**  Let’s reach out to the FairRent team to understand why the documentation fee is flagged. They can help you understand the specific requirements and ensure everything is in order.  Don’t worry, we’ll figure this out together!",[],0,0,0.0,0,0,0.0,1,0.3333333333333333,1
+Gemma 3 1B (base),test-156,variant:T043,pcm,"My guy, check this self contain for southgate. Rent na ₦150,000, agent money 38,000, agreement na ₦8,000, caution money 15000.","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": 38000, ""agreement"": 8000, ""caution"": 15000, ""inspection"": null, ""other"": []}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Greetings! Let’s take a look at your FairRent check.
+
+Okay, so your total fee is 211000 Naira.
+
+Here’s the breakdown:
+
+*   **Rent:** 150000 Naira – That’s a normal amount for a Self-contain property in FUTA South Gate. You’ve got around 16 reports.
+*   **Agency Fee:** 38000 Naira – This is a bit higher than the usual, around 0.253 share of rent. It’s flagged as a red flag.
+*   **Agreement/Legal Fee:** 8000 Naira – This is a normal fee.
+*   **Caution Fee:** 15000 Naira – Also normal.
+*   **Total:** 211000 Naira
+
+**Next Steps:**
+
+1.  **Check with the Agency:**  Reach out to the agency that handled the agreement. They can explain why the agency fee is higher.
+2.  **Review the Reports:**  Look at the 16 reports.  Are there any patterns?  Are there any areas where the fees seem unusually high?
+3.  **Consider Your Budget:**  Do you feel comfortable with the total fee?  If you’re concerned, you can discuss it with the agency.
+
+Do you need any more help with this?",[],0,0,0.0,0,0,0.0,1,0.0,0
+Gemma 3 1B (base),test-157,rent_info,pcm,Abeg how much self contain dey cost for FUTA southgate now?,"```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""null"", ""amount"": null}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! So glad to hear your rent and house fees are looking good. Let’s take a look at what you’ve got.
+
+Here’s the breakdown:
+
+*   **Rent:** NGN 18,000
+*   **House Fee:** NGN 17,250
+*   **Total:** NGN 35,250
+
+That’s a pretty standard range for a Self-contain property in FUTA South Gate. You’ve got 16 reports, which is a decent number.  
+
+**Next Steps:**
+
+1.  **Compare:**  Let’s see how these fees compare to similar properties in the area. You can check online listings on platforms like OLAS or other property portals.
+2.  **Check for Discounts:**  Some landlords offer discounts for long-term tenants or those with good payment history.  Ask if there are any available.
+3.  **Review Your Lease:**  Double-check your lease agreement to ensure you understand the terms and conditions of the fees.
+
+Do you want me to help you find some similar listings or look into potential discounts?","[18000.0, 17250.0, 35250.0]",0,0,0.0,0,0,0.0,0,1.0,0
+Gemma 3 1B (base),test-158,rent_info,en,What should I expect to pay for a self-contain around North Gate?,"```json
+{""intent"": ""fee_check"", ""area"": ""FUTA North Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""Naira"", ""amount"": 250000}]}
+```","Hello! 👋
+
+Okay, let’s take a look at your FairRent result. Here’s what we see:
+
+*   **Rent:** NGN 180,000
+*   **House Fees:** NGN 200,000
+*   **Typical Range:** Generally, house fees range from NGN 18,000 to NGN 25,000.
+*   **Number of Reports:** There are 9 reports related to this property.
+*   **Median:** The median house fee is NGN 220,000.
+
+**Next Steps:**
+
+1.  **Compare:** Let’s compare this to similar properties in the FUTA North Gate area. You can check online listings or ask neighbors for information.
+2.  **Consider Your Budget:**  Does this rent and house fee fit comfortably within your monthly budget?
+3.  **Contact FairRent:** If you’re unsure, reach out to FairRent directly. They can provide more specific insights and help you understand your rights. You can find their contact details on their website.
+
+Do you want me to help you find some similar properties or provide more information about FairRent’s policies?","[18000.0, 25000.0, 220000.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-159,rent_info,yo,"Ẹ jọ̀ọ́, èló ni wọ́n ń gba fún room ní FUTA southgate?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Single room"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""unknown"", ""amount"": null}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! So glad to hear your rent and house fees are okay. Let’s take a look at what you’ve got.
+
+Here’s the breakdown:
+
+*   **Rent:** NGN 60000
+*   **House Fee:** NGN 58750
+*   **Total:** NGN 118750
+
+That’s a pretty standard range for a single room in FUTA South Gate. You’ve got 8 reports, which is a decent number.  It’s looking good!
+
+**Next Steps:**
+
+1.  **Compare to Similar Properties:**  See if similar properties in the same area are charging more or less.  You can check online platforms like OLAS or other rental websites.
+2.  **Check with the Landlord:**  It’s always a good idea to discuss your rent with the landlord directly. They might have a reason for the fees.
+3.  **Document Everything:** Keep a record of the check result, the landlord’s response, and any conversations you have.
+
+Do you want me to help you find some similar properties in the area, or would you like me to help you draft a polite email to your landlord?",[118750.0],0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-160,rent_info,pcm,Abeg how much self-con dey cost for Apata now?,"```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti, Aule, Oba-Ile, Ologede, Wesco, Alagbaka, Ijapo Estate, Oke-Ijebu, Shagari Village, Isinkan, Arakale, Oda Road, Ondo Road, Ijoka, Roadblock"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""null"", ""amount"": 250000}]}
+```","Omo, my friend! So glad to hear your rent and house fees are looking good. Let’s take a look at what you’ve got.
+
+Here’s the breakdown:
+
+*   **Rent:** NGN 180,000
+*   **House Fee:** NGN 200,000
+*   **Total:** NGN 380,000
+
+That’s a pretty standard range for a Self-contain property in Apatapiti. You’ve got 33 reports, which is a decent number.  It’s generally around 200,000 - 250,000 per month.  
+
+**Next Steps:**
+
+1.  **Compare to Similar Properties:**  See if similar Self-contain properties in Apatapiti are charging more or less.  Websites like Property Finder or other real estate platforms can help with this.
+2.  **Check with the Landlord:**  It’s always a good idea to confirm the fees directly with your landlord. They might have a specific reason for the charges.
+3.  **Consider Your Needs:**  Do you need to adjust your budget based on the fees?  If you’re comfortable with the amount, that’s great!
+
+Do you want me to help you find some similar properties or look into any potential issues?",[380000.0],0,0,0.0,0,0,0.0,0,1.0,0
+Gemma 3 1B (base),test-161,rent_info,en,What should I expect to pay for a one bedroom flat around Aule?,"```json
+{""intent"": ""fee_check"", ""area"": ""Aule"", ""house_type"": ""Single room"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""null"", ""amount"": null}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Let’s take a look at your rent and house fees.
+
+Here’s what we see:
+
+*   **Rent:** NGN 30,000
+*   **House Fee:** NGN 15,000
+*   **Total:** NGN 45,000
+
+That’s a typical range for a Mini flat in Aule. We’ve got around 10 reports of tenants paying this amount.
+
+**Next Steps:**
+
+1.  **Check with the landlord:**  Reach out to the landlord directly to confirm the exact amount and understand any potential charges.
+2.  **Review your lease agreement:**  Make sure you’re familiar with the terms and conditions of your lease.
+3.  **If you’re unsure, ask for clarification:** Don’t hesitate to ask for more details about the fees. 
+
+Do you need help with anything else?  Let me know! Ẹ káàárọ̀! (Good day!)","[30000.0, 15000.0, 45000.0, 10.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-162,missing_info,en,"They are asking for 30,000 as agent fee. Is that normal?","```json
+{""intent"": ""fee_check"", ""area"": ""null"", ""house_type"": ""null"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""30,000"", ""amount"": 30000}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Let’s check your rent and house fees, okay? 
+
+Here’s what I see:
+
+*   **Rent:** NGN 8,000
+*   **House Fee:** NGN 2,500
+*   **Total:** NGN 10,500
+
+That’s a typical range for this property. We’ve got around 50 reports for this fee.
+
+**Next Steps:**  Let’s see if you can tell me a bit more about the property.  Could you tell me:
+
+*   What’s the property’s size (square footage)?
+*   Are there any extra charges (like maintenance, utilities, etc.)?
+*   Do you have any specific concerns about the fees?
+
+Let’s work together to make sure you’re comfortable with the charges.  Ẹ káà sí àár! (Good day to you!)","[8000.0, 2500.0, 10500.0, 50.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-163,missing_info,en,"They are asking for 50,000 as agent fee. Is that normal?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""PG hostel"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""50,000"", ""amount"": 50000}]}
+```","Omo, my friend! Let’s check your rent and house fees, okay? 
+
+Here’s what I see:
+
+*   **Rent:** NGN 8,000
+*   **House Fee:** NGN 2,500
+*   **Total:** NGN 10,500
+
+That’s a typical range for this property. We’ve got around 50 reports for this fee.
+
+**Next Steps:**  Let’s see if you can tell me a bit more about the property.  Could you tell me:
+
+*   What’s the property’s size (square footage)?
+*   Are there any extra charges (like maintenance, utilities, etc.)?
+*   Do you have any specific concerns about the fees?
+
+Let’s work together to make sure you’re comfortable with the charges.  Ẹ káà sí àár! (Good day to you!)","[8000.0, 2500.0, 10500.0, 50.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-164,missing_info,en,They are asking for 20k as agent fee. Is that normal?,"```json
+{""intent"": ""fee_check"", ""area"": ""null"", ""house_type"": ""Single room"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""20k"", ""amount"": 20000}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Let’s check your rent and house fees, okay? 
+
+Here’s what I see:
+
+*   **Rent:** NGN 8,000
+*   **House Fee:** NGN 2,500
+*   **Total:** NGN 10,500
+
+That’s a typical range for this property. We’ve got around 50 reports for this fee.
+
+**Next Steps:**  Let’s see if you can tell me a bit more about the property.  Could you tell me:
+
+*   What’s the property’s size (square footage)?
+*   Are there any extra charges (like maintenance, utilities, etc.)?
+*   Do you have any specific concerns about the fees?
+
+Let’s work together to make sure you’re comfortable with the charges.  Ẹ káà sí àár! (Good day to you!)","[8000.0, 2500.0, 10500.0, 50.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-165,missing_info,en,"They are asking for 50,000 as agent fee. Is that normal?","```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""PG hostel"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""50,000"", ""amount"": 50000}]}
+```","Omo, my friend! Let’s check your rent and house fees, okay? 
+
+Here’s what I see:
+
+*   **Rent:** NGN 8,000
+*   **House Fee:** NGN 2,500
+*   **Total:** NGN 10,500
+
+That’s a typical range for this property. We’ve got around 50 reports for this fee.
+
+**Next Steps:**  Let’s see if you can tell me a bit more about the property.  Could you tell me:
+
+*   What’s the property’s size (square footage)?
+*   Are there any extra charges (like maintenance, utilities, etc.)?
+*   Do you have any specific concerns about the fees?
+
+Let’s work together to make sure you’re comfortable with the charges.  Ẹ káà sí àár! (Good day to you!)","[8000.0, 2500.0, 10500.0, 50.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-166,out_of_scope,en,Tell me a joke about lecturers.,"```json
+{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""lecturers"", ""amount"": 250000}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Okay, let’s do this!
+
+“Hello there! Thanks for sharing your CHECK RESULT with me. 
+
+Okay, so based on the data, your rent is NGN 30,000 and house fees are NGN 5,000. 
+
+That’s a total of NGN 35,000. 
+
+Typically, rent ranges from around NGN 20,000 to NGN 40,000 depending on the size of the property and location. We’ve seen around 15-20 reports of this kind recently.
+
+**Next Steps:**
+
+*   **Check with the landlord:**  It’s always a good idea to confirm these figures with the landlord directly. They might have a specific policy or a different understanding of the fees.
+*   **Review your lease agreement:**  Make sure you’re familiar with the terms and conditions of your lease. 
+*   **Consider if there are any hidden fees:**  Sometimes, small fees can add up.  Ask for a breakdown of all charges.
+
+Do you need any further assistance with this?  Let me know!”","[30000.0, 5000.0, 35000.0, 20000.0, 40000.0, 15.0, 20.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-167,out_of_scope,pcm,How I fit make money online?,"```json
+{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""no information available""}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Let’s take a look at your FairRent result.
+
+Okay, so here’s what we see:
+
+*   **Rent:** NGN 8,000
+*   **House Fee:** NGN 2,500
+*   **Total:** NGN 10,500
+
+**Typical Range:**  You’re looking at a range of around NGN 8,000 - NGN 10,500 for rent and house fees in Akure.  We’ve seen around 50-100 reports of this kind recently.
+
+**Next Steps:**
+
+1.  **Compare to Similar Properties:**  Let’s see how these fees compare to similar properties in your area.  You can check online listings on platforms like OLAS or other property portals.
+2.  **Consider the Size:**  How much space do you have?  A larger property will naturally have higher fees.
+3.  **Review the Service Charges:**  Does the fee include any service charges (like communal cleaning, maintenance, etc.)?  If so, that’s something to investigate.
+4.  **Contact FairRent:** If you’re still unsure, reach out to FairRent directly. They can provide more specific information about your situation and help you understand the fees.  You can find their contact details on their website.
+
+Do you want me to help you find some similar properties or look into the service charges?","[8000.0, 2500.0, 10500.0, 8000.0, 10500.0, 50.0, 100.0]",0,0,0.0,0,0,0.0,0,1.0,0
+Gemma 3 1B (base),test-168,out_of_scope,en,What time does FUTA library close?,"```json
+{""intent"": ""other"", ""area"": ""FUTA"", ""house_type"": ""library"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""N/A""], {""amount"": null}]}
+```","Okay, let’s do this!
+
+“Hello there! Thanks for sharing your CHECK RESULT with me. 
+
+Okay, so based on the data, your rent is NGN 30,000 and house fees are NGN 5,000. 
+
+That’s a total of NGN 35,000. 
+
+Typically, rent ranges from around NGN 20,000 to NGN 40,000 depending on the size of the property and location. We’ve seen around 15-20 reports of this kind recently.
+
+**Next Steps:**
+
+*   **Check with the landlord:**  It’s always a good idea to confirm these figures with the landlord directly. They might have a specific policy or a different understanding of the fees.
+*   **Review your lease agreement:**  Make sure you’re familiar with the terms and conditions of your lease. 
+*   **Consider if there are any hidden fees:**  Sometimes, small fees can add up.  Ask for a breakdown of all charges.
+
+Do you need any further assistance with this?  Let me know!”","[30000.0, 5000.0, 35000.0, 20000.0, 40000.0, 15.0, 20.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-169,out_of_scope,yo,Kí ni orúkọ ọba Àkúrẹ́?,"```json
+{""intent"": ""fee_check"", ""area"": ""Apatapiti, Aule, Oba-Ile, Ologede, Wesco, Alagbaka, Ijapo Estate, Oke-Ijebu, Shagari Village, Isinkan, Arakale, Oda Road, Ondo Road, Ijoka, Roadblock"", ""house_type"": null, ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""unknown"", ""amount"": null}]}, ""language"": ""en"" | ""pcm"" | ""yo""}
+```","Omo, my friend! Let’s take a look at your FairRent result.
+
+Okay, so here’s what we see:
+
+*   **Rent:** NGN 8,000
+*   **House Fee:** NGN 2,500
+*   **Total:** NGN 10,500
+
+**Typical Range:**  For a 2-bedroom apartment in Akure, you’d expect to pay between NGN 8,000 and NGN 10,500.  We’ve seen around 50-100 reports for this amount recently.
+
+**Next Steps:**
+
+1.  **Compare to Similar Properties:**  Check online listings for similar apartments in Akure.  See if the rent and house fees are within a reasonable range.
+2.  **Consider Your Needs:**  Do you *really* need the extra house fee?  Could you find a cheaper place that meets your basic needs?
+3.  **Talk to the Landlord:**  If you’re unsure, have a friendly chat with the landlord.  They might be willing to discuss the fees and explain the charges.
+
+Do you want me to help you find some similar listings or explore other options?","[8000.0, 2500.0, 10500.0, 8000.0, 10500.0, 50.0, 100.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B (base),test-170,out_of_scope,pcm,Abeg help me do my assignment.,"```json
+{""intent"": ""fee_check"", ""area"": ""FUTA South Gate, FUTA North Gate, FUTA West Gate, Apatapiti, Aule, Oba-Ile, Ologede, Wesco, Alagbaka, Ijapo Estate, Oke-Ijebu, Shagari Village, Isinkan, Arakale, Oda Road, Ondo Road, Ijoka, Roadblock"", ""house_type"": null, ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en"", ""pmc"": null, ""yo"": null}
+```","Omo, my friend! Let’s take a look at your FairRent result.
+
+Okay, so here’s what we see:
+
+*   **Rent:** NGN 8,000
+*   **House Fee:** NGN 2,500
+*   **Total:** NGN 10,500
+
+**Typical Range:**  You’re looking at a range of around NGN 8,000 - NGN 10,500 for rent and house fees in Akure.  We’ve seen around 50-100 reports of this kind recently.
+
+**Next Steps:**
+
+1.  **Compare to Similar Properties:**  Let’s see how these fees compare to similar properties in your area.  You can check online listings on platforms like OLAS or other property portals.
+2.  **Consider the Size:**  How much space do you have?  A larger property will naturally have higher fees.
+3.  **Review the Service Charges:**  Does the fee include any service charges (like communal cleaning, maintenance, etc.)?  If so, that’s something to investigate.
+4.  **Contact FairRent:** If you’re still unsure, reach out to FairRent directly. They can provide more specific information about your situation and help you understand the fees.  You can find their contact details on their website.
+
+Do you want me to help you find some similar properties or look into the service charges?","[8000.0, 2500.0, 10500.0, 8000.0, 10500.0, 50.0, 100.0]",1,0,0.75,1,0,0.0,0,1.0,0
+Gemma 3 1B (base),test-171,out_of_scope,en,Is it going to rain in Akure tomorrow?,"```json
+{""intent"": ""other"", ""area"": ""null"", ""house_type"": ""null"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""rain"", ""amount"": null}]}
+```","Okay, let’s do this!
+
+“Hello there! Thanks for sharing your CHECK RESULT with me. 
+
+Okay, so based on the data, your rent is NGN 30,000 and house fees are NGN 5,000. 
+
+That’s a total of NGN 35,000. 
+
+Typically, rent ranges from around NGN 20,000 to NGN 40,000 depending on the size of the property and location. We’ve seen around 15-20 reports of this kind recently.
+
+**Next Steps:**
+
+*   **Check with the landlord:**  It’s always a good idea to confirm these figures with the landlord directly. They might have a specific policy or a different understanding of the fees.
+*   **Review your lease agreement:**  Make sure you’re familiar with the terms and conditions of your lease. 
+*   **Consider if there are any hidden fees:**  Sometimes, small fees can add up.  Ask for a breakdown of all charges.
+
+Do you need any further assistance with this?  Let me know!”","[30000.0, 5000.0, 35000.0, 20000.0, 40000.0, 15.0, 20.0]",0,0,0.0,0,0,0.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-124,survey:T007,yo,Ẹ káàsán. 2-bedroom flat ní southgate. Rent jẹ́ 300k. Ṣé owó yìí pọ̀ jù?,"{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Mini flat"", ""fees"": {""rent"": 300000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""yo""}","Ẹ n lẹ́! For 2-bedroom flat in FUTA South Gate, most tenants reported ₦300,000 a year (10 reports).
+- Rent ₦300,000: ❔ Not enough data
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Confirm the rent directly with the landlord before paying.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[10.0],1,1,0.875,1,0,1.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-125,variant:T007,pcm,"Boss, two bedroom for southgate o. House money na 300k, agency 15000, lawyer money 45k, inspection na 3,000, development fee 30000. Dem no dey overcharge me so?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""2-bedroom flat"", ""fees"": {""rent"": 300000, ""agency"": 15000, ""agreement"": 45000, ""caution"": null, ""inspection"": 3000, ""other"": [{""name"": ""Development fee"", ""amount"": 30000}]}, ""language"": ""en""}","See how your money take be (2-bedroom flat, FUTA South Gate):
+
+- Rent ₦300,000: ❔ Data never reach
+- Agency fee ₦15,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Agreement / legal fee ₦45,000: ⚠️ E pass normal (15% of rent; normal na 10% or less)
+- Inspection fee ₦3,000: ✅ E normal
+- Development fee ₦30,000: 🚩 Red flag (no be many people dey pay this one)
+
+Most people wey report 2-bedroom flat in FUTA South Gate dey pay ₦300,000–₦400,000 for one year (few reports).
+Total wey dem ask you to pay: ₦393,000.
+Check these ones well: Agreement / legal fee, Development fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Ask wetin development fee dey cover and who dey collect am.
+4. Make dem write am down say inspection fee go return.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[400000.0],1,1,0.875,1,0,1.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-126,variant:T007,pcm,"My guy, check this 2-bedroom flat for FUTA South Gate. Rent 300k, agent money 30k, lawyer money 45000, inspection na 10,000.","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""2-bedroom flat"", ""fees"": {""rent"": 300000, ""agency"": 30000, ""agreement"": 45000, ""caution"": null, ""inspection"": 10000, ""other"": []}, ""language"": ""en""}","See how your money take be (2-bedroom flat, FUTA South Gate):
+
+- Rent ₦300,000: ❔ Data never reach
+- Agency fee ₦30,000: ✅ E normal (10% of rent; normal na 10% or less)
+- Agreement / legal fee ₦45,000: ⚠️ E pass normal (15% of rent; normal na 10% or less)
+- Inspection fee ₦10,000: ⚠️ E pass normal (normal na ₦5,000 or less for one house)
+
+Most people wey report 2-bedroom flat in FUTA South Gate dey pay ₦300,000–₦500,000 for one year (few reports).
+Total wey dem ask you to pay: ₦385,000.
+Check these ones well: Agreement / legal fee, Inspection fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Ask wetin inspection fee dey cover and who dey collect am.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[500000.0],1,1,0.875,1,0,1.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-127,survey:T008,en,Quick question: single room at Ologede. Yearly rent is 50000. Too much?,"{""intent"": ""fee_check"", ""area"": ""Ologede"", ""house_type"": ""Single room"", ""fees"": {""rent"": 50000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","Here is your fee check (Single room, Ologede):
+
+- Rent ₦50,000: ✅ Normal
+
+Most reports for Single room across Akure are ₦58,750–₦102,500 a year (8 reports).
+Total you were asked to pay: ₦50,000.
+Everything here is within the usual range.
+
+What you can do:
+1. It looks fair. Still collect a receipt for every payment.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-128,variant:T008,yo,"Ẹ káàsán. room ní Ologede. Owó ilé: 50,000. owó agent: 2,000. agreement: 5,000. caution: ₦5,000. inspection jẹ́ ₦3,000. agent transport: ₦30,000. Ṣé owó yìí pọ̀ jù?","{""intent"": ""fee_check"", ""area"": ""Ologede"", ""house_type"": ""Single room"", ""fees"": {""rent"": 50000, ""agency"": 2000, ""agreement"": 5000, ""caution"": 5000, ""inspection"": 3000, ""other"": [{""name"": ""Agent transport"", ""amount"": 30000}]}, ""language"": ""yo""}","Ẹ n lẹ́! Here is your fee check (Single room, Ologede):
+
+- Rent ₦50,000: ✅ Normal
+- Agency fee ₦2,000: ✅ Normal (5% of rent; usual is 10% or less)
+- Agreement / legal fee ₦5,000: ✅ Normal (10% of rent; usual is 10% or less)
+- Caution fee ₦5,000: ✅ Normal (10% of rent; usual is 15% or less)
+- Inspection fee ₦3,000: ✅ Normal
+- Agent transport ₦30,000: 🚩 Red flag (few tenants report this fee)
+
+Most reports for Single room across Akure are ₦58,750–₦102,500 a year (8 reports).
+Total you were asked to pay: ₦95,000.
+Needs attention: Agent transport.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Get it in writing that the caution fee is refundable.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[5.0],1,1,1.0,1,1,1.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-129,variant:T008,pcm,"My guy, check this single room for Ologede. Rent na 50000, agency ₦2,000, agreement 2000, inspection 10,000.","{""intent"": ""fee_check"", ""area"": ""Ologede"", ""house_type"": ""Single room"", ""fees"": {""rent"": 50000, ""agency"": 2000, ""agreement"": 2000, ""caution"": null, ""inspection"": 10000, ""other"": []}, ""language"": ""en""}","See how your money take be (Single room, Ologede):
+
+- Rent ₦50,000: ✅ E normal
+- Agency fee ₦2,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Agreement / legal fee ₦2,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Inspection fee ₦10,000: ⚠️ E pass normal (normal na ₦5,000 or less for one house)
+
+Most people wey report Single room across Akure dey pay ₦58,750–₦102,500 for one year (8 reports).
+Total wey dem ask you to pay: ₦64,000.
+Check these ones well: Inspection fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,0.875,1,0,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-130,survey:T014,yo,"Ẹ káàsán. single room ní FUTA South Gate. Owó ilé: 55000. agency fee jẹ́ 10k. agreement jẹ́ 15,000. caution: 10000. inspection jẹ́ ₦2,500. Ṣé owó yìí pọ̀ jù?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Single room"", ""fees"": {""rent"": 55000, ""agency"": 10000, ""agreement"": 15000, ""caution"": 10000, ""inspection"": 2500, ""other"": []}, ""language"": ""yo""}","Ẹ n lẹ́! Here is your fee check (Single room, FUTA South Gate):
+
+- Rent ₦55,000: ✅ Normal
+- Agency fee ₦10,000: ⚠️ Above typical (18% of rent; usual is 10% or less)
+- Agreement / legal fee ₦15,000: 🚩 Red flag (27% of rent; usual is 10% or less)
+- Caution fee ₦10,000: ✅ Above typical (18% of rent; usual is 15% or less)
+- Inspection fee ₦2,500: ✅ Normal
+
+Most reports for Single room across Akure are ₦58,750–₦102,500 a year (8 reports).
+Total you were asked to pay: ₦92,500.
+Needs attention: Agency fee, Agreement / legal fee, Caution fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Ask the agent to reduce the caution fee.
+4. Get it in writing that the caution fee is refundable.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-131,variant:T014,pcm,"Boss, room for FUTA southgate o. Rent na 55,000, agent money ₦6,000, caution money na 11000, documentation fee 50000. Dem no dey overcharge me so?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Single room"", ""fees"": {""rent"": 55000, ""agency"": 6000, ""agreement"": null, ""caution"": 11000, ""inspection"": null, ""other"": [{""name"": ""Documentation fee"", ""amount"": 50000}]}, ""language"": ""pcm""}","See how your money take be (Single room, FUTA South Gate):
+
+- Rent ₦55,000: ✅ E normal
+- Agency fee ₦6,000: ⚠️ E pass normal (10% of rent; normal na 10% or less)
+- Caution fee ₦11,000: ⚠️ E pass normal (20% of rent; normal na 15% or less)
+- Documentation fee ₦50,000: 🚩 Red flag (no be many people dey pay this one)
+
+Most people wey report Single room across Akure dey pay ₦58,750–₦102,500 for one year (8 reports).
+Total wey dem ask you to pay: ₦122,000.
+Check these ones well: Agency fee, Caution fee, Documentation fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Ask wetin documentation fee dey cover and who dey collect am.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-132,variant:T014,pcm,"My guy, check this single room for southgate. Rent na 55k, agent money na 3,000, caution na 6,000, inspection money 2000.","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Single room"", ""fees"": {""rent"": 55000, ""agency"": 3000, ""agreement"": null, ""caution"": 6000, ""inspection"": 2000, ""other"": []}, ""language"": ""en""}","See how your money take be (Single room, FUTA South Gate):
+
+- Rent ₦55,000: ✅ E normal
+- Agency fee ₦3,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Caution fee ₦6,000: ✅ E normal (10% of rent; normal na 15% or less)
+- Inspection fee ₦2,000: ✅ E normal
+
+Most people wey report Single room across Akure dey pay ₦58,750–₦102,500 for one year (8 reports).
+Total wey dem ask you to pay: ₦66,000.
+Everything dey inside normal range.
+
+Wetin you fit do:
+1. E be like say e fair. But still collect receipt for every payment.
+2. Make dem write am down say caution fee go return.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,0.875,1,0,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-133,survey:T017,pcm,"Boss, selfcon for Apata o. Rent 150k. Dem no dey overcharge me so?","{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""pcm""}","See how your money take be (Self-contain, Apatapiti):
+
+- Rent ₦150,000: ✅ E normal
+
+Most people wey report Self-contain across Akure dey pay ₦180,000–₦250,000 for one year (33 reports).
+Total wey dem ask you to pay: ₦150,000.
+Everything dey inside normal range.
+
+Wetin you fit do:
+1. E be like say e fair. But still collect receipt for every payment.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-134,variant:T017,pcm,"My guy, check this self-con for Apata. Rent ₦150,000, agent money na ₦8,000, agreement na ₦22,000, caution na ₦15,000.","{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": 8000, ""agreement"": 22000, ""caution"": 15000, ""inspection"": null, ""other"": []}, ""language"": ""en""}","See how your money take be (Self-contain, Apatapiti):
+
+- Rent ₦150,000: ✅ E normal
+- Agency fee ₦8,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Agreement / legal fee ₦22,000: ⚠️ E pass normal (14% of rent; normal na 10% or less)
+- Caution fee ₦15,000: ✅ E normal (10% of rent; normal na 15% or less)
+
+Most people wey report Self-contain across Akure dey pay ₦180,000–₦250,000 for one year (33 reports).
+Total wey dem ask you to pay: ₦195,000.
+Check these ones well: Agreement / legal fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Make dem write am down say caution fee go return.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[14.0],1,1,0.875,1,0,1.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-135,variant:T017,pcm,"Boss, self-con for Apata o. Rent 150000, agency 15,000, agreement ₦15,000, caution na ₦15,000, inspection money na ₦1,000, documentation fee na 10000. Dem no dey overcharge me so?","{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": 15000, ""agreement"": 15000, ""caution"": 15000, ""inspection"": 1000, ""other"": [{""name"": ""Documentation fee"", ""amount"": 10000}]}, ""language"": ""en""}","See how your money take be (Self-contain, Apatapiti):
+
+- Rent ₦150,000: ✅ E normal
+- Agency fee ₦15,000: ✅ E normal (10% of rent; normal na 10% or less)
+- Agreement / legal fee ₦15,000: ✅ E normal (10% of rent; normal na 10% or less)
+- Caution fee ₦15,000: ✅ E normal (10% of rent; normal na 15% or less)
+- Inspection fee ₦1,000: ✅ E normal
+- Documentation fee ₦10,000: 🚩 Red flag (no be many people dey pay this one)
+
+Most people wey report Self-contain across Akure dey pay ₦180,000–₦250,000 for one year (33 reports).
+Total wey dem ask you to pay: ₦206,000.
+Check these ones well: Documentation fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Ask wetin documentation fee dey cover and who dey collect am.
+4. Make dem write am down say caution fee go return.
+
+Na from Akure tenant survey we get these numbers. Na",[],1,1,0.875,1,0,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-136,survey:T028,yo,"Ẹ káàsán. self-contain ní FUTA South Gate. Owó ilé: 250k. owó agent jẹ́ 50000. agreement fee jẹ́ ₦30,000. caution fee: ₦30,000. inspection jẹ́ 1500. Ṣé owó yìí pọ̀ jù?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 50000, ""agreement"": 30000, ""caution"": 30000, ""inspection"": 1500, ""other"": []}, ""language"": ""yo""}","Ẹ n lẹ́! Here is your fee check (Self-contain, FUTA South Gate):
+
+- Rent ₦250,000: ✅ Normal
+- Agency fee ₦50,000: ⚠️ Above typical (20% of rent; usual is 10% or less)
+- Agreement / legal fee ₦30,000: ⚠️ Above typical (12% of rent; usual is 10% or less)
+- Caution fee ₦30,000: ✅ Normal (12% of rent; usual is 15% or less)
+- Inspection fee ₦1,500: ✅ Normal
+
+Most reports for Self-contain in FUTA South Gate are ₦172,500–₦250,000 a year (16 reports).
+Total you were asked to pay: ₦361,500.
+Needs attention: Agency fee, Agreement / legal fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Ask what the caution fee covers and who receives it.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-137,variant:T028,en,"Good evening. Found a self contain near southgate. Yearly rent is 250,000. agency fee is 25k. legal fee: 25,000. caution deposit: ₦50,000. inspection is 1,000. Does this look okay?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 25000, ""agreement"": 25000, ""caution"": 50000, ""inspection"": 1000, ""other"": []}, ""language"": ""en""}","Here is your fee check (Self-contain, FUTA South Gate):
+
+- Rent ₦250,000: ✅ Normal
+- Agency fee ₦25,000: ✅ Normal (10% of rent; usual is 10% or less)
+- Agreement / legal fee ₦25,000: ✅ Normal (10% of rent; usual is 10% or less)
+- Caution fee ₦50,000: ⚠️ Above typical (20% of rent; usual is 15% or less)
+- Inspection fee ₦1,000: ✅ Normal
+
+Most reports for Self-contain in FUTA South Gate are ₦172,500–₦250,000 a year (16 reports).
+Total you were asked to pay: ₦351,000.
+Needs attention: Caution fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Get it in writing that the caution fee is refundable.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-138,variant:T028,pcm,"Boss, selfcon for South Gate o. Rent na 250,000, agent money na 50000, lawyer money na ₦25,000, caution money 50000, inspection na 5000. Dem no dey overcharge me so?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 50000, ""agreement"": 25000, ""caution"": 50000, ""inspection"": 5000, ""other"": []}, ""language"": ""pcm""}","See how your money take be (Self-contain, FUTA South Gate):
+
+- Rent ₦250,000: ✅ E normal
+- Agency fee ₦50,000: ⚠️ E pass normal (20% of rent; normal na 10% or less)
+- Agreement / legal fee ₦25,000: ✅ E normal (10% of rent; normal na 10% or less)
+- Caution fee ₦50,000: ⚠️ E pass normal (20% of rent; normal na 15% or less)
+- Inspection fee ₦5,000: ✅ E normal
+
+Most people wey report Self-contain in FUTA South Gate dey pay ₦172,500–₦250,000 for one year (16 reports).
+Total wey dem ask you to pay: ₦380,000.
+Check these ones well: Agency fee, Caution fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Make dem write am down say caution fee go return.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-139,survey:T030,en,"Quick question: selfcon at southgate. Yearly rent: 250,000, agent fee: 10k, agreement fee is 10000, inspection fee is 5,000. Too much?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 10000, ""agreement"": 10000, ""caution"": null, ""inspection"": 5000, ""other"": []}, ""language"": ""en""}","Here is your fee check (Self-contain, FUTA South Gate):
+
+- Rent ₦250,000: ✅ Normal
+- Agency fee ₦10,000: ✅ Normal (5% of rent; usual is 10% or less)
+- Agreement / legal fee ₦10,000: ✅ Normal (5% of rent; usual is 10% or less)
+- Inspection fee ₦5,000: ✅ Normal
+
+Most reports for Self-contain in FUTA South Gate are ₦172,500–₦250,000 a year (16 reports).
+Total you were asked to pay: ₦275,000.
+Everything here is within the usual range.
+
+What you can do:
+1. It looks fair. Still collect a receipt for every payment.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.","[5.0, 5.0]",1,1,1.0,1,1,1.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-140,variant:T030,en,"Quick question: self contain at South Gate. Yearly rent is ₦250,000, agency fee: ₦75,000, caution fee: 50,000, inspection fee: ₦1,000, cleaning fee is 10000. Too much?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 75000, ""agreement"": null, ""caution"": 50000, ""inspection"": 1000, ""other"": [{""name"": ""Cleaning fee"", ""amount"": 10000}]}, ""language"": ""en""}","Here is your fee check (Self-contain, FUTA South Gate):
+
+- Rent ₦250,000: ✅ Normal
+- Agency fee ₦75,000: 🚩 Red flag (30% of rent; usual is 10% or less)
+- Caution fee ₦50,000: ⚠️ Above typical (20% of rent; usual is 15% or less)
+- Inspection fee ₦1,000: ✅ Normal
+- Cleaning fee ₦10,000: 🚩 Red flag (few tenants report this fee)
+
+Most reports for Self-contain in FUTA South Gate are ₦172,500–₦250,000 a year (16 reports).
+Total you were asked to pay: ₦386,000.
+Needs attention: Agency fee, Caution fee, Cleaning fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Ask what the cleaning fee covers and who receives it.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-141,variant:T030,en,"Good evening. Found a self contain near FUTA southgate. Rent is 250,000, agent fee is 25k, inspection is 5000. Does this look okay?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 25000, ""agreement"": null, ""caution"": null, ""inspection"": 5000, ""other"": []}, ""language"": ""en""}","Here is your fee check (Self-contain, FUTA South Gate):
+
+- Rent ₦250,000: ✅ Normal
+- Agency fee ₦25,000: ✅ Normal (10% of rent; usual is 10% or less)
+- Inspection fee ₦5,000: ✅ Normal
+
+Most reports for Self-contain in FUTA South Gate are ₦172,500–₦250,000 a year (16 reports).
+Total you were asked to pay: ₦280,000.
+Everything here is within the usual range.
+
+What you can do:
+1. It looks fair. Still collect a receipt for every payment.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-142,survey:T033,yo,"Ẹ káàsán. self contain ní Aule road. Owó ilé jẹ́ 240,000, owó agent: 50,000, inspection fee jẹ́ 3,500, cleaning jẹ́ 20000. Ṣé owó yìí pọ̀ jù?","{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 240000, ""agency"": 50000, ""agreement"": null, ""caution"": null, ""inspection"": 3500, ""other"": [{""name"": ""Cleaning"", ""amount"": 20000}]}, ""language"": ""yo""}","Ẹ n lẹ́! Here is your fee check (Self-contain, Aule):
+
+- Rent ₦240,000: ✅ Normal
+- Agency fee ₦50,000: 🚩 Red flag (20% of rent; usual is 10% or less)
+- Inspection fee ₦3,500: ✅ Normal
+- Cleaning ₦20,000: 🚩 Red flag (few tenants report this fee)
+
+Most reports for Self-contain across Akure are ₦180,000–₦250,000 a year (33 reports).
+Total you were asked to pay: ₦313,500.
+Needs attention: Agency fee, Cleaning.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Ask what the cleaning fee covers and who receives it.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[20.0],1,1,0.875,1,0,1.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-143,variant:T033,pcm,"My guy, check this self contain for Aule. House money na 240,000, agent money na ₦12,000, agreement na 12000, inspection money na 3,000.","{""intent"": ""fee_check"", ""area"": ""Aule"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 240000, ""agency"": 12000, ""agreement"": 12000, ""caution"": null, ""inspection"": 3000, ""other"": []}, ""language"": ""en""}","See how your money take be (Self-contain, Aule):
+
+- Rent ₦240,000: ✅ E normal
+- Agency fee ₦12,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Agreement / legal fee ₦12,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Inspection fee ₦3,000: ✅ E normal
+
+Most people wey report Self-contain across Akure dey pay ₦180,000–₦250,000 for one year (33 reports).
+Total wey dem ask you to pay: ₦267,000.
+Everything dey inside normal range.
+
+Wetin you fit do:
+1. E be like say e fair. But still collect receipt for every payment.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,0.875,1,0,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-144,variant:T033,en,"Good evening. Found a self-con near Aule. Rent: ₦240,000, agency fee: 60000, legal fee is 12000, development fee is 50k. Does this look okay?","{""intent"": ""fee_check"", ""area"": ""Aule"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 240000, ""agency"": 60000, ""agreement"": 12000, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""Development fee"", ""amount"": 50000}]}, ""language"": ""en""}","Here is your fee check (Self-contain, Aule):
+
+- Rent ₦240,000: ✅ Normal
+- Agency fee ₦60,000: 🚩 Red flag (25% of rent; usual is 10% or less)
+- Agreement / legal fee ₦12,000: ✅ Normal (5% of rent; usual is 10% or less)
+- Development fee ₦50,000: 🚩 Red flag (few tenants report this fee)
+
+Most reports for Self-contain across Akure are ₦180,000–₦250,000 a year (33 reports).
+Total you were asked to pay: ₦362,000.
+Needs attention: Agency fee, Development fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Ask what the development fee covers and who receives it.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-145,survey:T035,en,Good evening. Found a self contain near northgate. Yearly rent: 220k. Does this look okay?,"{""intent"": ""fee_check"", ""area"": ""FUTA North Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 220000, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","Here is your fee check (Self-contain, FUTA North Gate):
+
+- Rent ₦220,000: ✅ Normal
+
+Most reports for Self-contain in FUTA North Gate are ₦180,000–₦240,000 a year (9 reports).
+Total you were asked to pay: ₦220,000.
+Everything here is within the usual range.
+
+What you can do:
+1. It looks fair. Still collect a receipt for every payment.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-146,variant:T035,pcm,"Boss, self-contain for FUTA North Gate o. Rent 220k, agent money na ₦55,000, agreement na 11k, inspection na 3,000. Dem no dey overcharge me so?","{""intent"": ""fee_check"", ""area"": ""FUTA North Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 220000, ""agency"": 55000, ""agreement"": 11000, ""caution"": null, ""inspection"": 3000, ""other"": []}, ""language"": ""pcm""}","See how your money take be (Self-contain, FUTA North Gate):
+
+- Rent ₦220,000: ✅ E normal
+- Agency fee ₦55,000: 🚩 Red flag (25% of rent; normal na 10% or less)
+- Agreement / legal fee ₦11,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Inspection fee ₦3,000: ✅ E normal
+
+Most people wey report Self-contain in FUTA North Gate dey pay ₦180,000–₦240,000 for one year (9 reports).
+Total wey dem ask you to pay: ₦289,000.
+Check these ones well: Agency fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Make dem write am down say inspection fee go return.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-147,variant:T035,pcm,"My guy, check this self contain for North Gate. Rent 220k, agency 22000, caution money na ₦22,000, inspection 3000.","{""intent"": ""fee_check"", ""area"": ""FUTA North Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 220000, ""agency"": 22000, ""agreement"": null, ""caution"": 22000, ""inspection"": 3000, ""other"": []}, ""language"": ""pcm""}","See how your money take be (Self-contain, FUTA North Gate):
+
+- Rent ₦220,000: ✅ E normal
+- Agency fee ₦22,000: ✅ E normal (10% of rent; normal na 10% or less)
+- Caution fee ₦22,000: ✅ E normal (10% of rent; normal na 15% or less)
+- Inspection fee ₦3,000: ✅ E normal
+
+Most people wey report Self-contain in FUTA North Gate dey pay ₦180,000–₦240,000 for one year (9 reports).
+Total wey dem ask you to pay: ₦267,000.
+Everything dey inside normal range.
+
+Wetin you fit do:
+1. E be like say e fair. But still collect receipt for every payment.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-148,survey:T037,pcm,"My guy, check this self contain for FUTA West Gate. Rent 200,000. agent money na 15000. lawyer money 5k. caution money na 5k. caretaker fee na 50,000.","{""intent"": ""fee_check"", ""area"": ""FUTA West Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 200000, ""agency"": 15000, ""agreement"": 5000, ""caution"": 5000, ""inspection"": null, ""other"": [{""name"": ""Caretaker fee"", ""amount"": 50000}]}, ""language"": ""en""}","See how your money take be (Self-contain, FUTA West Gate):
+
+- Rent ₦200,000: ✅ E normal
+- Agency fee ₦15,000: ✅ E normal (7% of rent; normal na 10% or less)
+- Agreement / legal fee ₦5,000: ✅ E normal (2% of rent; normal na 10% or less)
+- Caution fee ₦50,000: ✅ E normal (2% of rent; normal na 15% or less)
+- Caretaker fee ₦50,000: 🚩 Red flag (no be many people dey pay this one)
+
+Most people wey report Self-contain across Akure dey pay ₦180,000–₦250,000 for one year (33 reports).
+Total wey dem ask you to pay: ₦275,000.
+Check these ones well: Caretaker fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Ask wetin caretaker fee dey cover and who dey collect am.
+4. Be wary of agents who ask you to pay more than the usual.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[7.0],1,1,0.875,1,0,1.0,0,1.0,1
+Gemma 3 1B + LoRA (ours),test-149,variant:T037,en,"Quick question: self-contain at West Gate. Yearly rent: ₦200,000, agency fee: 50k, caution deposit is ₦20,000, inspection is 1000. Too much?","{""intent"": ""fee_check"", ""area"": ""FUTA West Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 200000, ""agency"": 50000, ""agreement"": null, ""caution"": 20000, ""inspection"": 1000, ""other"": []}, ""language"": ""en""}","Here is your fee check (Self-contain, FUTA West Gate):
+
+- Rent ₦200,000: ✅ Normal
+- Agency fee ₦50,000: 🚩 Red flag (25% of rent; usual is 10% or less)
+- Caution fee ₦20,000: ✅ Normal (10% of rent; usual is 15% or less)
+- Inspection fee ₦1,000: ✅ Normal
+
+Most reports for Self-contain across Akure are ₦180,000–₦250,000 a year (33 reports).
+Total you were asked to pay: ₦271,000.
+Needs attention: Agency fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Get it in writing that the caution fee is refundable.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-150,variant:T037,pcm,"Boss, self contain for FUTA West Gate o. Rent 200k, agency 40k, caution money na 20000, inspection money na 5,000. Dem no dey overcharge me so?","{""intent"": ""fee_check"", ""area"": ""FUTA West Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 200000, ""agency"": 40000, ""agreement"": null, ""caution"": 20000, ""inspection"": 5000, ""other"": []}, ""language"": ""pcm""}","See how your money take be (Self-contain, FUTA West Gate):
+
+- Rent ₦200,000: ✅ E normal
+- Agency fee ₦40,000: ⚠️ E pass normal (20% of rent; normal na 10% or less)
+- Caution fee ₦20,000: ✅ E normal (10% of rent; normal na 15% or less)
+- Inspection fee ₦5,000: ✅ E normal
+
+Most people wey report Self-contain across Akure dey pay ₦180,000–₦250,000 for one year (33 reports).
+Total wey dem ask you to pay: ₦265,000.
+Check these ones well: Agency fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-151,survey:T039,yo,"Ẹ káàsán. self-contain ní Apatapiti. Owó ilé jẹ́ 250,000, owó agent: ₦30,000, inspection: ₦1,000. Ṣé owó yìí pọ̀ jù?","{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 30000, ""agreement"": null, ""caution"": null, ""inspection"": 1000, ""other"": []}, ""language"": ""yo""}","Ẹ n lẹ́! Here is your fee check (Self-contain, Apatapiti):
+
+- Rent ₦250,000: ✅ Normal
+- Agency fee ₦30,000: ⚠️ Above typical (12% of rent; usual is 10% or less)
+- Inspection fee ₦1,000: ✅ Normal
+
+Most reports for Self-contain across Akure are ₦180,000–₦250,000 a year (33 reports).
+Total you were asked to pay: ₦281,000.
+Needs attention: Agency fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-152,variant:T039,en,"Good evening. Found a self contain near Apatapiti. Rent is 250k, agency fee: 25000, legal fee: 12k, inspection is 3000, development fee: 10000. Does this look okay?","{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 25000, ""agreement"": 12000, ""caution"": null, ""inspection"": 3000, ""other"": [{""name"": ""Development fee"", ""amount"": 10000}]}, ""language"": ""en""}","Here is your fee check (Self-contain, Apatapiti):
+
+- Rent ₦250,000: ✅ Normal
+- Agency fee ₦25,000: ✅ Normal (10% of rent; usual is 10% or less)
+- Agreement / legal fee ₦12,000: ✅ Normal (5% of rent; usual is 10% or less)
+- Inspection fee ₦3,000: ✅ Normal
+- Development fee ₦10,000: 🚩 Red flag (few tenants report this fee)
+
+Most reports for Self-contain across Akure are ₦180,000–₦250,000 a year (33 reports).
+Total you were asked to pay: ₦300,000.
+Needs attention: Development fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Ask what the development fee covers and who receives it.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-153,variant:T039,en,"Good evening. Found a self contain near Apata. Rent is ₦250,000. agency fee is 25,000. caution deposit: 25k. documentation fee: ₦20,000. Does this look okay?","{""intent"": ""fee_check"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 250000, ""agency"": 25000, ""agreement"": null, ""caution"": 25000, ""inspection"": null, ""other"": [{""name"": ""Documentation fee"", ""amount"": 20000}]}, ""language"": ""en""}","Here is your fee check (Self-contain, Apatapiti):
+
+- Rent ₦250,000: ✅ Normal
+- Agency fee ₦25,000: ✅ Normal (10% of rent; usual is 10% or less)
+- Caution fee ₦25,000: ✅ Normal (10% of rent; usual is 15% or less)
+- Documentation fee ₦20,000: 🚩 Red flag (few tenants report this fee)
+
+Most reports for Self-contain across Akure are ₦180,000–₦250,000 a year (33 reports).
+Total you were asked to pay: ₦320,000.
+Needs attention: Documentation fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Ask what the documentation fee covers and who receives it.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-154,survey:T043,en,"Good evening. Found a self contain near FUTA southgate. Yearly rent is ₦150,000, agency fee is 50k. Does this look okay?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": 50000, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","Here is your fee check (Self-contain, FUTA South Gate):
+
+- Rent ₦150,000: ✅ Normal
+- Agency fee ₦50,000: 🚩 Red flag (33% of rent; usual is 10% or less)
+
+Most reports for Self-contain in FUTA South Gate are ₦172,500–₦250,000 a year (16 reports).
+Total you were asked to pay: ₦200,000.
+Needs attention: Agency fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-155,variant:T043,yo,"Ẹ káàsán. self contain ní FUTA South Gate. Owó ilé jẹ́ 150k, owó agent jẹ́ 8,000, documentation fee: 20000. Ṣé owó yìí pọ̀ jù?","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": 8000, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": [{""name"": ""Documentation fee"", ""amount"": 20000}]}, ""language"": ""yo""}","Ẹ n lẹ́! Here is your fee check (Self-contain, FUTA South Gate):
+
+- Rent ₦150,000: ✅ Normal
+- Agency fee ₦8,000: ✅ Normal (5% of rent; usual is 10% or less)
+- Documentation fee ₦20,000: 🚩 Red flag (few tenants report this fee)
+
+Most reports for Self-contain in FUTA South Gate are ₦172,500–₦250,000 a year (16 reports).
+Total you were asked to pay: ₦178,000.
+Needs attention: Documentation fee.
+
+What you can do:
+1. Ask for a written receipt for every fee.
+2. Ask the agent to reduce the fees marked above typical.
+3. Ask what the documentation fee covers and who receives it.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-156,variant:T043,pcm,"My guy, check this self contain for southgate. Rent na ₦150,000, agent money 38,000, agreement na ₦8,000, caution money 15000.","{""intent"": ""fee_check"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": 150000, ""agency"": 38000, ""agreement"": 8000, ""caution"": 15000, ""inspection"": null, ""other"": []}, ""language"": ""en""}","See how your money take be (Self-contain, FUTA South Gate):
+
+- Rent ₦150,000: ✅ E normal
+- Agency fee ₦38,000: 🚩 Red flag (25% of rent; normal na 10% or less)
+- Agreement / legal fee ₦8,000: ✅ E normal (5% of rent; normal na 10% or less)
+- Caution fee ₦15,000: ✅ E normal (10% of rent; normal na 15% or less)
+
+Most people wey report Self-contain in FUTA South Gate dey pay ₦172,500–₦250,000 for one year (16 reports).
+Total wey dem ask you to pay: ₦211,000.
+Check these ones well: Agency fee.
+
+Wetin you fit do:
+1. Collect receipt for every money wey you pay.
+2. Beg the agent make e reduce the fees wey pass normal.
+3. Make dem write am down say caution fee go return.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,0.875,1,0,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-157,rent_info,pcm,Abeg how much self contain dey cost for FUTA southgate now?,"{""intent"": ""rent_info"", ""area"": ""FUTA South Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","See how your money take be (Self-contain, FUTA South Gate):
+
+- Self-contain in FUTA South Gate: ₦172,500–₦250,000 (16 reports)
+- No fee reported above this range.
+
+Most people wey report Self-contain in FUTA South Gate dey pay ₦172,500–₦250,000 for one year (16 reports).
+Total wey dem ask you to pay: ₦172,500–₦250,000.
+Everything dey inside normal range.
+
+Wetin you fit do:
+1. E be like say e fair. But still collect receipt for every payment.
+
+Na from Akure tenant survey we get these numbers. Na advice, no be legal advice.",[],1,1,0.875,1,0,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-158,rent_info,en,What should I expect to pay for a self-contain around North Gate?,"{""intent"": ""rent_info"", ""area"": ""FUTA North Gate"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","Here is your rent and house fee check (Self-contain, FUTA North Gate):
+
+- Self-contain in FUTA North Gate: ₦180,000–₦240,000/year (9 reports)
+- No fee marked above the usual range.
+
+Most reports for Self-contain in FUTA North Gate are ₦180,000–₦240,000 a year (9 reports).
+Total you were asked to pay: ₦180,000–₦240,000.
+Everything here is within the usual range.
+
+What you can do:
+1. It looks fair. Still collect a receipt for every payment.
+
+Based on Akure tenant survey reports. This is guidance, not legal advice.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-159,rent_info,yo,"Ẹ jọ̀ọ́, èló ni wọ́n ń gba fún room ní FUTA southgate?","{""intent"": ""rent_info"", ""area"": ""FUTA South Gate"", ""house_type"": ""Single room"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""yo""}","Ẹ n lẹ́! For Single room across Akure, most tenants reported ₦58,750–₦102,500 a year, with a middle value of ₦60,000 (8 reports). Send me the full fee breakdown and I will check it.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-160,rent_info,pcm,Abeg how much self-con dey cost for Apata now?,"{""intent"": ""rent_info"", ""area"": ""Apatapiti"", ""house_type"": ""Self-contain"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","See how your money take be (Self-contain, Apatapiti):
+
+- Self-contain across Akure: ₦180,000–₦250,000 (33 reports) ⚠️
+- Most people wey report Self-contain across Akure dey pay ₦180,000–₦250,000 for one year (33 reports).
+
+Most people wey buy Self-contain across Akure dey pay ₦180,000–₦250,000 for one year (33 reports).",[],1,1,0.875,1,0,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-161,rent_info,en,What should I expect to pay for a one bedroom flat around Aule?,"{""intent"": ""rent_info"", ""area"": ""Aule"", ""house_type"": ""Single room"", ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","Sorry, I can only help with house rent in Akure. Send me your rent and house fee breakdown and I will check it.",[],1,1,0.875,1,0,0.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-162,missing_info,en,"They are asking for 30,000 as agent fee. Is that normal?","{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","To check your fees I need the yearly rent. How much is the rent, and which other fees did the agent ask for?",[],1,0,0.875,0,0,0.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-163,missing_info,en,"They are asking for 50,000 as agent fee. Is that normal?","{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","To check your fees I need the yearly rent. How much is the rent, and which other fees did the agent ask for?",[],1,0,0.875,0,0,0.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-164,missing_info,en,They are asking for 20k as agent fee. Is that normal?,"{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","To check your fees I need the yearly rent. How much is the rent, and which other fees did the agent ask for?",[],1,0,0.875,0,0,0.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-165,missing_info,en,"They are asking for 50,000 as agent fee. Is that normal?","{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": {""rent"": null, ""agency"": null, ""agreement"": null, ""caution"": null, ""inspection"": null, ""other"": []}, ""language"": ""en""}","To check your fees I need the yearly rent. How much is the rent, and which other fees did the agent ask for?",[],1,0,0.875,0,0,0.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-166,out_of_scope,en,Tell me a joke about lecturers.,"{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": null, ""language"": ""en""}","Sorry, I can only help with house rent and fees in Akure. Send me your rent and fee breakdown and I will check it.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-167,out_of_scope,pcm,How I fit make money online?,"{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": null, ""language"": ""en""}","Sorry, I can only help with house rent and fees in Akure. Send me your rent and fee breakdown and I will check it.",[],1,1,0.875,1,0,1.0,1,1.0,0
+Gemma 3 1B + LoRA (ours),test-168,out_of_scope,en,What time does FUTA library close?,"{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": null, ""language"": ""en""}","Sorry, I can only help with house rent and fees in Akure. Send me your rent and fee breakdown and I will check it.",[],1,1,1.0,1,1,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-169,out_of_scope,yo,Kí ni orúkọ ọba Àkúrẹ́?,"{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": null, ""language"": ""en""}","Ẹ n lẹ́! Sorry, I can only help with house rent and fees in Akure. Send me your rent and fee breakdown and I will check it.",[],1,1,0.875,1,0,1.0,1,1.0,1
+Gemma 3 1B + LoRA (ours),test-170,out_of_scope,pcm,Abeg help me do my assignment.,"{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": null, ""language"": ""en""}","Sorry, I can only help with house rent and fees in Akure. Send me your rent and fee breakdown and I will check it.",[],1,1,0.875,1,0,1.0,1,1.0,0
+Gemma 3 1B + LoRA (ours),test-171,out_of_scope,en,Is it going to rain in Akure tomorrow?,"{""intent"": ""other"", ""area"": null, ""house_type"": null, ""fees"": null, ""language"": ""en""}","Sorry, I can only help with house rent and fees in Akure. Send me your rent and fee breakdown and I will check it.",[],1,1,1.0,1,1,1.0,1,1.0,1
