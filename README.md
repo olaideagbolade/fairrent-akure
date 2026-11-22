@@ -42,6 +42,21 @@ Tenant message ──► Gemma 3 1B + LoRA (extract) ──► JSON: area, house
 - **Groundedness safeguard:** if a model reply contains a number that is not in the engine result, the system shows a template reply instead. ([`llm.py`](src/fairrent/llm.py))
 - **Honest about gaps:** for house types or areas with fewer than 5 reports, it says "not enough data".
 
+## Demo
+
+Screenshots from the Gradio chat demo (`notebooks/04_demo_chat.ipynb`):
+
+| English: agency fee flagged | Yoruba: fair package |
+|---|---|
+| ![](results/demo_2_english.png) | ![](results/demo_3_yoruba.png) |
+
+| Rent question | Off-topic message |
+|---|---|
+| ![](results/demo_4_rent.png) | ![](results/demo_1_offtopic.png) |
+
+**Known error, Pidgin:** the model missed a development fee and replied in English. See the [model card limitations](MODEL_CARD.md#limitations).
+![](results/demo_5_pidgin_error.png)
+
 ## Repository structure
 
 ```
